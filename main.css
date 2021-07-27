@@ -48,11 +48,54 @@ table {
 }
 
 /* Mano kodas */
-.clpw {
-	background-color: #808080;
+body {
+	font-family: "Roboto", sans-serif;
+  }
+
+.font-weight-normal{
+	font-weight: 400;
 }
-.clpw-slider {
-	border: 3px solid red;
+
+.font-weight-bold{
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.clpw {
+	background-color: #000;
+}
+
+.clpw-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.crypto-pairs {
 	display: flex;
-	padding-bottom: 200px;
+	flex-wrap: wrap;
+	background-color: #000;
+	color: #fff;
+	height: 150px;
+	line-height: 30px;
+	overflow: visable;
+	position: relative;
+	animation: mymove 9s infinite ease-out;
+	animation-direction: alternate;
+}
+
+@keyframes mymove {
+	0%  {top: 0px;}
+	33% {top: -150px;}
+	66% {top: -300px;}
+	100% {top: -450px;}
+  }
+
+.pair {
+	background-color: black;
+	width: 25%;
+	height: 150px;
+}
+
+.percentage-pair-name {
+	display: flex;
 }
