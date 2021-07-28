@@ -1,0 +1,50 @@
+.clpw {
+	background-color: #000;
+}
+
+.clpw-wrapper {
+	background-color: #000;
+	overflow: visible;
+}
+
+.crypto-pairs {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000;
+	color: #fff;
+	height: 150px;
+	position: relative;
+	/* animation: clpw-animation 9s infinite ease-out; */
+}
+
+/* Jei noriu, kad sustotu ties kazkokiu keyframe, daryti tarpinius keyframe, kuriame niekas nevyksta*/
+@keyframes clpw-animation {
+	0%  {top: 0px;}
+	25% {top: -150px;}
+	33% {top: -150px;}
+	66% {top: -300px;}
+	100% {top: -450px;}
+  }
+
+.pair {
+    background-color: black;
+	padding: 30px 0;
+
+        .price-big{
+         	line-height: 1.2;
+     }
+}
+
+
+
+.percentage-pair-name {
+	display: flex;
+}
+
+.percent-color-g {
+	color: #32CD32;
+}
+
+.percent-color-r {
+	color: #db1717;
+}
