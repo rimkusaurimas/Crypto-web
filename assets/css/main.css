@@ -11513,6 +11513,7 @@ fieldset:disabled .btn {
 @media (max-width: 767.98px) {
   .crypto-pairs .col-sm-6 .pair {
     padding: 39px 0px;
+    height: 100%;
   }
 }
 
