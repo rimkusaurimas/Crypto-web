@@ -11511,8 +11511,8 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 767.98px) {
-  .pair {
-    height: 100%;
+  .crypto-pairs .col-sm-6 .pair {
+    padding: 39px 0px;
   }
 }
 
@@ -11580,13 +11580,13 @@ fieldset:disabled .btn {
 
 .pair {
   background-color: black;
-  padding: 36.6px 0;
+  padding: 31.8px 0;
 }
 
 .pair .price-big {
   line-height: 1.2;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .percentage-pair-name {
@@ -11606,4 +11606,3 @@ fieldset:disabled .btn {
 body {
   font-family: "Roboto", sans-serif;
 }
-/*# sourceMappingURL=main.css.map */
