@@ -1,7 +1,11 @@
 @import "bootstrap-theme/variables";
 @import "bootstrap-5.0.2/scss/bootstrap";
 @import "bootstrap-theme/bootswatch";
-@import "colors";
+@import "variables";
+
+@import "fa-scss/fontawesome";
+@import "fa-scss/regular";
+@import "fa-scss/solid";
 @import "mixins";
 @import "font";
 @import "clpw";
