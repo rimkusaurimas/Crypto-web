@@ -1,8 +1,13 @@
-@import "bootstrap-5.0.2/scss/bootstrap.scss";
+@import "bootstrap-theme/variables";
+@import "bootstrap-5.0.2/scss/bootstrap";
+@import "bootstrap-theme/bootswatch";
+@import "colors";
 @import "mixins";
 @import "font";
 @import "clpw";
+@import "header";
 
 body {
 	font-family: "Roboto", sans-serif;
   }
+  //

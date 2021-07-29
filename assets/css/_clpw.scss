@@ -4,7 +4,7 @@
 
 .clpw-wrapper {
 	background-color: #000;
-	overflow: visible;
+	overflow: hidden;
 }
 
 .crypto-pairs {
@@ -14,17 +14,11 @@
 	color: #fff;
 	height: 150px;
 	position: relative;
-	/* animation: clpw-animation 9s infinite ease-out; */
 }
 
-/* Jei noriu, kad sustotu ties kazkokiu keyframe, daryti tarpinius keyframe, kuriame niekas nevyksta*/
-@keyframes clpw-animation {
-	0%  {top: 0px;}
-	25% {top: -150px;}
-	33% {top: -150px;}
-	66% {top: -300px;}
-	100% {top: -450px;}
-  }
+@media screen and (max-width: 576px) {
+	.crypto-pairs {padding-left: 30px}
+}
 
 .pair {
     background-color: black;
