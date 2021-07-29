@@ -1,16 +1,16 @@
 .clpw {
-	background-color: #000;
+	background-color: $dblue;
 }
 
 .clpw-wrapper {
-	background-color: #000;
+	background-color: $dblue;
 	overflow: hidden;
 }
 
 .crypto-pairs {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #000;
+	background-color: $dblue;
 	color: #fff;
 	height: 150px;
 	position: relative;
@@ -21,7 +21,7 @@
 }
 
 .pair {
-    background-color: black;
+    background-color: $dblue;
 	padding: 31.8px 0;
 
         .price-big{
@@ -29,6 +29,10 @@
 			font-weight: 700;
 			font-size: 2rem;
      }
+
+	 	.price-small {
+			 color: $lblue;
+		 }
 }
 
 .percentage-pair-name {

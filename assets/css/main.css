@@ -17484,11 +17484,11 @@ readers do not read off random characters that represent icons */
 }
 
 .clpw {
-  background-color: #000;
+  background-color: #1A2238;
 }
 
 .clpw-wrapper {
-  background-color: #000;
+  background-color: #1A2238;
   overflow: hidden;
 }
 
@@ -17498,7 +17498,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #000;
+  background-color: #1A2238;
   color: #fff;
   height: 150px;
   position: relative;
@@ -17511,7 +17511,7 @@ readers do not read off random characters that represent icons */
 }
 
 .pair {
-  background-color: black;
+  background-color: #1A2238;
   padding: 31.8px 0;
 }
 
@@ -17519,6 +17519,10 @@ readers do not read off random characters that represent icons */
   line-height: 1.2;
   font-weight: 700;
   font-size: 2rem;
+}
+
+.pair .price-small {
+  color: #9DAAF2;
 }
 
 .percentage-pair-name {
@@ -17550,6 +17554,43 @@ readers do not read off random characters that represent icons */
 
 .nav-item {
   margin-right: 0.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link.nav-link-bg {
+  background-color: #1A2238;
+  color: #fff;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.login-register .register {
+  margin: 0rem;
+}
+
+.login-register-ul {
+  margin: 0rem;
+}
+
+.dropdown-menu {
+  border: 0;
+  -webkit-box-shadow: 0px 1px 3px #666;
+          box-shadow: 0px 1px 3px #666;
 }
 
 body {

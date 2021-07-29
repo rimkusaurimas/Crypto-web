@@ -14,3 +14,31 @@
 .nav-item {
     margin-right: 0.9rem;
 }
+
+.navbar-light .navbar-nav .nav-link.nav-link-bg {
+    background-color: $dblue;
+    color: #fff;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-register{
+    display:flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.login-register .register {
+    margin: 0rem;
+}
+
+.login-register-ul {
+    margin: 0rem;
+}
+
+.dropdown-menu{
+    border: 0;
+    box-shadow: 0px 1px 3px #666;
+}
+
