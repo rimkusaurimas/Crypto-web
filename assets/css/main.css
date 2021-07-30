@@ -17462,7 +17462,7 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 767.98px) {
   .percentage-pair-name, .price-small, .price-big {
-    font-size: 70%;
+    font-size: 0.8rem;
   }
 }
 
@@ -17472,71 +17472,8 @@ readers do not read off random characters that represent icons */
   }
 }
 
-@media (max-width: 767.98px) {
-  .crypto-pairs .col-sm-6 .pair {
-    padding: 39px 0px;
-    height: 100%;
-  }
-}
-
 .font-weight-bold {
   font-weight: 700;
-}
-
-.clpw {
-  background-color: #0A0A0A;
-}
-
-.clpw-wrapper {
-  background-color: #0A0A0A;
-  overflow: hidden;
-}
-
-.crypto-pairs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: #0A0A0A;
-  color: #fff;
-  height: 150px;
-  position: relative;
-}
-
-@media screen and (max-width: 576px) {
-  .crypto-pairs {
-    padding-left: 30px;
-  }
-}
-
-.pair {
-  background-color: #0A0A0A;
-  padding: 31.8px 0;
-}
-
-.pair .price-big {
-  line-height: 1.2;
-  font-weight: 700;
-  font-size: 2rem;
-}
-
-.pair .price-small {
-  color: #F4DB7D;
-}
-
-.percentage-pair-name {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.percent-color-g {
-  color: #32CD32;
-}
-
-.percent-color-r {
-  color: #db1717;
 }
 
 .navbar-light .navbar-brand {
@@ -17555,7 +17492,7 @@ readers do not read off random characters that represent icons */
 }
 
 .navbar-light .navbar-nav .nav-link.nav-link-bg {
-  background-color: #0A0A0A;
+  background-color: #0a0a0a;
   color: #fff;
   width: 90px;
   display: -webkit-box;
@@ -17564,6 +17501,19 @@ readers do not read off random characters that represent icons */
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 1px solid transparent;
+  -webkit-transition: background-color 0.8s, color 0.8s, border 0.8s;
+  transition: background-color 0.8s, color 0.8s, border 0.8s;
+}
+
+.navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
+  background-color: transparent;
+  color: #0a0a0a;
+  border: solid 1px #0a0a0a;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #727272;
 }
 
 .login-register {
@@ -17585,12 +17535,104 @@ readers do not read off random characters that represent icons */
   margin: 0rem;
 }
 
+@media screen and (max-width: 990px) {
+  .login-register-ul {
+    padding-left: 0px;
+    border-top: solid 1px #BFBFBF;
+  }
+}
+
 .dropdown-menu {
   border: 0;
   -webkit-box-shadow: 0px 1px 3px #666;
           box-shadow: 0px 1px 3px #666;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+.hero {
+  height: calc(100vh - 247.6px);
+}
+
+.img-fluid {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 399px) {
+  .img-fluid {
+    margin-left: -10px;
+  }
+}
+
+.clpw {
+  background-color: #0a0a0a;
+}
+
+.clpw-wrapper {
+  background-color: #0a0a0a;
+  overflow: hidden;
+}
+
+.crypto-pairs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #0a0a0a;
+  color: #fff;
+  height: 150px;
+  position: relative;
+  padding-left: 25px;
+}
+
+@media screen and (min-width: 400px) {
+  .crypto-pairs {
+    padding-left: 45px;
+  }
+}
+
+.pair {
+  background-color: #0a0a0a;
+  padding: 31.8px 0;
+  height: 150px;
+}
+
+.pair .price-big {
+  line-height: 1.2;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.pair .price-small {
+  color: #f4db7d;
+}
+
+.percentage-pair-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.percent-color-g {
+  color: #32CD32;
+}
+
+.percent-color-r {
+  color: #db1717;
+}
+
+.clpw.container {
+  max-width: 1850px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.dropdown-toggle::after {
+  display: none;
 }

@@ -14,11 +14,23 @@
 }
 
 .navbar-light .navbar-nav .nav-link.nav-link-bg {
-    background-color: $black;
+    background-color: $dark;
     color: #fff;
     width: 90px;
     display: flex;
     justify-content: center;
+    border: 1px solid transparent;
+    transition: background-color 0.8s, color 0.8s, border 0.8s;
+}
+
+.navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
+    background-color: transparent;
+    color: $dark;
+    border: solid 1px $dark;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $dark-hover;
 }
 
 .login-register{
@@ -33,9 +45,18 @@
 
 .login-register-ul {
     margin: 0rem;
+    @media screen and (max-width: 990px) {
+		padding-left: 0px;
+        border-top: solid 1px #BFBFBF;
+	}
 }
 
 .dropdown-menu{
     border: 0;
     box-shadow: 0px 1px 3px #666;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $dark;
+    font-weight: 500;
 }

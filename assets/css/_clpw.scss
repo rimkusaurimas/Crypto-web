@@ -1,37 +1,45 @@
+.img-fluid {
+	margin-left: 10px;
+}
+@media screen and (max-width: 399px) {
+		.img-fluid {margin-left: -10px};
+	}
+
 .clpw {
-	background-color: $black;
+	background-color: $dark;
 }
 
 .clpw-wrapper {
-	background-color: $black;
+	background-color: $dark;
 	overflow: hidden;
 }
 
 .crypto-pairs {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: $black;
+	background-color: $dark;
 	color: #fff;
 	height: 150px;
 	position: relative;
-}
- 
-@media screen and (max-width: 576px) {
-	.crypto-pairs {padding-left: 30px}
+	padding-left: 25px;
+	@media screen and (min-width: 400px) {
+		padding-left: 45px;
+	}
 }
 
 .pair {
-    background-color: $black;
+    background-color: $dark;
 	padding: 31.8px 0;
+	height: 150px;
 
         .price-big{
          	line-height: 1.2;
 			font-weight: 700;
-			font-size: 2rem;
+			font-size: 1.6rem;
      }
 
 	 	.price-small {
-			 color: $yellow;
+			 color: $secondary;
 		 }
 }
 
@@ -45,4 +53,8 @@
 
 .percent-color-r {
 	color: #db1717;
+}
+
+.clpw.container {
+	max-width: 1850px;
 }

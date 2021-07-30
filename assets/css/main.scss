@@ -7,9 +7,16 @@
 @import "fa-scss/solid";
 @import "mixins";
 @import "font";
-@import "clpw";
 @import "header";
+@import "hero";
+@import "clpw";
 
 body {
 	font-family: "Roboto", sans-serif;
   }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  

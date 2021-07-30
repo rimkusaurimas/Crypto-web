@@ -1,18 +1,11 @@
 @include media-breakpoint-down(md){
     .percentage-pair-name, .price-small, .price-big{
-        font-size: 70%;
+        font-size: 0.8rem;
     }
 }
 
 @include media-breakpoint-down(md){
     .crypto-pairs .col-sm-6{
-        height: 100%;
-    }
-}
-
-@include media-breakpoint-down(md){
-    .crypto-pairs .col-sm-6 .pair{
-        padding: 39px 0px;
         height: 100%;
     }
 }
