@@ -17484,11 +17484,11 @@ readers do not read off random characters that represent icons */
 }
 
 .clpw {
-  background-color: #1A2238;
+  background-color: #0A0A0A;
 }
 
 .clpw-wrapper {
-  background-color: #1A2238;
+  background-color: #0A0A0A;
   overflow: hidden;
 }
 
@@ -17498,7 +17498,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #1A2238;
+  background-color: #0A0A0A;
   color: #fff;
   height: 150px;
   position: relative;
@@ -17511,7 +17511,7 @@ readers do not read off random characters that represent icons */
 }
 
 .pair {
-  background-color: #1A2238;
+  background-color: #0A0A0A;
   padding: 31.8px 0;
 }
 
@@ -17522,7 +17522,7 @@ readers do not read off random characters that represent icons */
 }
 
 .pair .price-small {
-  color: #9DAAF2;
+  color: #F4DB7D;
 }
 
 .percentage-pair-name {
@@ -17540,10 +17540,8 @@ readers do not read off random characters that represent icons */
 }
 
 .navbar-light .navbar-brand {
-  background-color: #1A2238;
-  color: #fff;
   padding: 10px;
-  font-weight: 700;
+  width: 5.5rem;
 }
 
 .navbar {
@@ -17557,7 +17555,7 @@ readers do not read off random characters that represent icons */
 }
 
 .navbar-light .navbar-nav .nav-link.nav-link-bg {
-  background-color: #1A2238;
+  background-color: #0A0A0A;
   color: #fff;
   width: 90px;
   display: -webkit-box;

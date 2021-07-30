@@ -1,27 +1,27 @@
 .clpw {
-	background-color: $dblue;
+	background-color: $black;
 }
 
 .clpw-wrapper {
-	background-color: $dblue;
+	background-color: $black;
 	overflow: hidden;
 }
 
 .crypto-pairs {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: $dblue;
+	background-color: $black;
 	color: #fff;
 	height: 150px;
 	position: relative;
 }
-
+ 
 @media screen and (max-width: 576px) {
 	.crypto-pairs {padding-left: 30px}
 }
 
 .pair {
-    background-color: $dblue;
+    background-color: $black;
 	padding: 31.8px 0;
 
         .price-big{
@@ -31,7 +31,7 @@
      }
 
 	 	.price-small {
-			 color: $lblue;
+			 color: $yellow;
 		 }
 }
 
