@@ -17576,6 +17576,11 @@ readers do not read off random characters that represent icons */
   font-weight: 500;
 }
 
+.footer {
+  height: 200px;
+  background-color: #fff;
+}
+
 .hero {
   height: calc(100vh - 247.6px);
   background-color: #0a0a0a;
@@ -17693,6 +17698,49 @@ readers do not read off random characters that represent icons */
 
 .clpw.container {
   max-width: 1850px;
+}
+
+.ms-about {
+  height: 350px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 70px;
+}
+
+.ms-about .ms-about-text {
+  width: 450px;
+}
+
+.ms-perks {
+  height: 350px;
+  background-color: wheat;
+}
+
+.section-newsletter {
+  height: 200px;
+  background-color: #0a0a0a;
+}
+
+.ms-updates {
+  height: 350px;
+  background-color: #0a0a0a;
+}
+
+.ms-partners {
+  height: 350px;
+  background-color: wheat;
 }
 
 body {
