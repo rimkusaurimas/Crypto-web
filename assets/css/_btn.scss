@@ -1,0 +1,17 @@
+.btn-clp {
+    background-color: #fff;
+    color: $dark;
+    padding: 15px;
+    font-weight: 400;
+    width: 315px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.8s, color 0.8s, border 0.8s;
+    border: solid 1px transparent;
+}
+
+.btn-clp:hover {
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+}

@@ -1,3 +1,39 @@
 .hero {
     height: calc(100vh - 247.6px);
+    background-color: $dark;
+
+    .hero-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: calc(100vh - 247.6px);
+        align-items: center;
+    
+        .hero-image{
+            padding-right: 120px;
+        }
+    
+        .hero-text1, .hero-text2 {
+            font-size: 3rem;
+            color: #fff;
+        }
+        
+        .hero-text1 {
+            font-weight: 300;
+        }
+        
+        .hero-text2 {
+            font-weight: 700;
+            font-size: 4rem;
+        }
+        
+        .hero-par {
+            font-size: 1rem;
+            color: #fff;
+            max-width: 600px;
+        }
+    }
+    
+    
 }
+

@@ -17476,6 +17476,29 @@ readers do not read off random characters that represent icons */
   font-weight: 700;
 }
 
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.btn-clp {
+  background-color: #fff;
+  color: #0a0a0a;
+  padding: 15px;
+  font-weight: 400;
+  width: 315px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 0.8s, color 0.8s, border 0.8s;
+  transition: background-color 0.8s, color 0.8s, border 0.8s;
+  border: solid 1px transparent;
+}
+
+.btn-clp:hover {
+  background-color: transparent;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
 .navbar-light .navbar-brand {
   padding: 10px;
   width: 5.5rem;
@@ -17555,6 +17578,48 @@ readers do not read off random characters that represent icons */
 
 .hero {
   height: calc(100vh - 247.6px);
+  background-color: #0a0a0a;
+}
+
+.hero .hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: calc(100vh - 247.6px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-content .hero-image {
+  padding-right: 120px;
+}
+
+.hero .hero-content .hero-text1, .hero .hero-content .hero-text2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero .hero-content .hero-text1 {
+  font-weight: 300;
+}
+
+.hero .hero-content .hero-text2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.hero .hero-content .hero-par {
+  font-size: 1rem;
+  color: #fff;
+  max-width: 600px;
 }
 
 .img-fluid {
