@@ -10,7 +10,7 @@ $(document).ready(function () {
     const clpwPair = {
 
         btcusdt: {
-            name: "BTC/USDT",
+            name: "!BTC/USDT!",
             percent: 9.2,
             dollarValue: 42.234,
             value: 42.234
@@ -52,5 +52,8 @@ $(document).ready(function () {
         }
     };
 
-    $(".percentage-pair-name").
+    $("#percPairName1").replaceWith(clpwPair.btcusdt.name);
+
+    
+
 });
