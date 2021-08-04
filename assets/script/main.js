@@ -7,7 +7,7 @@ $(document).ready(function () {
         }
     });
 
-    const clpwPair = {
+    const clpwPairs = {
 
         pair1: {
             name: "!BTC/USDT",
@@ -52,12 +52,12 @@ $(document).ready(function () {
         }
     };
 
-    $("#percPairName1").replaceWith(clpwPair.pair1.name);
-    $("#percPairName2").replaceWith(clpwPair.pair2.name);
-    $("#percPairName3").replaceWith(clpwPair.pair3.name);
-    $("#percPairName4").replaceWith(clpwPair.pair4.name);
-    $("#percPairName5").replaceWith(clpwPair.pair5.name);
-    $("#percPairName6").replaceWith(clpwPair.pair6.name);
+    $("#percPairName1").replaceWith(clpwPairs.pair1.name);
+    $("#percPairName2").replaceWith(clpwPairs.pair2.name);
+    $("#percPairName3").replaceWith(clpwPairs.pair3.name);
+    $("#percPairName4").replaceWith(clpwPairs.pair4.name);
+    $("#percPairName5").replaceWith(clpwPairs.pair5.name);
+    $("#percPairName6").replaceWith(clpwPairs.pair6.name);
 
     
 
