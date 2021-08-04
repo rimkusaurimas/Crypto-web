@@ -17481,8 +17481,8 @@ readers do not read off random characters that represent icons */
 }
 
 .btn-clp {
-  background-color: #fff;
-  color: #0a0a0a;
+  background-color: #ff6a3d;
+  color: #3d0e00;
   padding: 15px;
   font-weight: 400;
   width: 315px;
@@ -17495,8 +17495,8 @@ readers do not read off random characters that represent icons */
 
 .btn-clp:hover {
   background-color: transparent;
-  color: #fff;
-  border: solid 1px #fff;
+  color: #ff6a3d;
+  border: solid 1px #ff6a3d;
 }
 
 .navbar-light .navbar-brand {
@@ -17574,6 +17574,14 @@ readers do not read off random characters that represent icons */
 .navbar-light .navbar-nav .nav-link {
   color: #0a0a0a;
   font-weight: 500;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  margin-top: 0;
 }
 
 .footer {

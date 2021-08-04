@@ -1,6 +1,6 @@
 .btn-clp {
-    background-color: #fff;
-    color: $dark;
+    background-color: $primary;
+    color: darken($primary, $amount: 50%) ;
     padding: 15px;
     font-weight: 400;
     width: 315px;
@@ -12,6 +12,8 @@
 
 .btn-clp:hover {
     background-color: transparent;
-    color: #fff;
-    border: solid 1px #fff;
+    color: $primary;
+    border: solid 1px $primary;
 }
+
+

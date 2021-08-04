@@ -60,3 +60,11 @@
     color: $dark;
     font-weight: 500;
 }
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    margin-top: 0;
+}
