@@ -17694,7 +17694,7 @@ readers do not read off random characters that represent icons */
   color: #f4db7d;
 }
 
-.percentage-pair-name {
+.percentage-pair {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
