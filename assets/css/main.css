@@ -17605,7 +17605,11 @@ readers do not read off random characters that represent icons */
 }
 
 .hero .hero-content .hero-image {
-  padding-right: 120px;
+  padding-right: 300px;
+}
+
+.hero .hero-content .hero-image.img {
+  width: 700px;
 }
 
 .hero .hero-content .hero-text1, .hero .hero-content .hero-text2 {

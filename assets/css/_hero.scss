@@ -11,7 +11,11 @@
         padding-left: 55px;
     
         .hero-image{
-            padding-right: 120px;
+            padding-right: 300px;
+
+            &.img {
+                width: 700px;
+            }
         }
     
         .hero-text1, .hero-text2 {
