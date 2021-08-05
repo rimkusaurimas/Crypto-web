@@ -8,7 +8,7 @@ $(document).ready(function () {
         }
     });
 
-   $(".nav-item.dropdown").mouseout(function () {
+   //$(".nav-item.dropdown").mouseout(function () {
         let dropdownMenu = $(this).children(".dropdown-menu");
         if (dropdownMenu.is(":visible")) {
             dropdownMenu.removeClass("show");
@@ -17,7 +17,6 @@ $(document).ready(function () {
 
     // Crypto Live Preview Widget
     const clpwPairs = {
-
         pair1: {
             name: "!BTC/USDT",
             percent: 9.2,

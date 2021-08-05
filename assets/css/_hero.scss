@@ -10,25 +10,22 @@
         align-items: center;
         padding-left: 55px;
     
-        .hero-image{
-
-            &.img {
-                width: 700px;
-            }
+        .hero-image .img{
+            width: 700px;
         }
     
-        .hero-text1, .hero-text2 {
-            font-size: 3rem;
-            color: #fff;
-        }
-        
-        .hero-text1 {
-            font-weight: 300;
-        }
-        
-        .hero-text2 {
-            font-weight: 700;
-            font-size: 4rem;
+        .hero-text{
+            .hero-text1 {
+                font-size: 3rem;
+                font-weight: 300;
+                color: $white;
+            }
+            
+            .hero-text2 {
+                font-weight: 700;
+                font-size: 4rem;
+                color: $white;
+            }
         }
         
         .hero-par {
@@ -37,7 +34,4 @@
             max-width: 600px;
         }
     }
-    
-    
 }
-

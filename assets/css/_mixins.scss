@@ -2,9 +2,7 @@
     .percentage-pair-name, .price-small, .price-big{
         font-size: 0.8rem;
     }
-}
 
-@include media-breakpoint-down(md){
     .crypto-pairs .col-sm-6{
         height: 100%;
     }

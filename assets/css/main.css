@@ -17480,48 +17480,39 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.fonta-primary-submenu {
+.font-for-dropdown {
   color: #ff6a3d;
   padding-right: 15px;
   font-size: 1.6rem;
 }
 
-.navbar-light .navbar-brand {
-  padding: 10px;
-  width: 5.5rem;
-}
-
-.navbar {
+.header-section .navbar {
   font-weight: 400;
   padding: 0.3rem;
   text-transform: none;
 }
 
-.nav-item {
-  margin-right: 0.9rem;
+.header-section .navbar .navbar-brand {
+  padding: 10px;
+  width: 5.5rem;
 }
 
-.navbar-light .navbar-nav .nav-link.nav-link-bg {
-  background-color: #0a0a0a;
-  color: #fff;
-  width: 90px;
-  border: 1px solid transparent;
-  -webkit-transition: background-color 0.8s, color 0.8s, border 0.8s;
-  transition: background-color 0.8s, color 0.8s, border 0.8s;
-  padding: 12px;
+.header-section .navbar .navbar-brand .img-fluid {
+  margin-left: 10px;
 }
 
-.navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
-  background-color: transparent;
-  color: #0a0a0a;
-  border: solid 1px #0a0a0a;
+.header-section .navbar .navbar-collapse .login-register-ul {
+  margin: 0rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #8a8a8a;
+@media screen and (max-width: 990px) {
+  .header-section .navbar .navbar-collapse .login-register-ul {
+    padding-left: 0px;
+    border-top: solid 1px #BFBFBF;
+  }
 }
 
-.login-register {
+.header-section .navbar .navbar-collapse .login-register-ul .login-register {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17532,32 +17523,33 @@ readers do not read off random characters that represent icons */
       align-content: center;
 }
 
-.login-register .register {
+.header-section .navbar .navbar-collapse .login-register-ul .login-register .register {
   margin: 0rem;
 }
 
-.login-register-ul {
-  margin: 0rem;
+.header-section .navbar .navbar-collapse .nav-item {
+  margin-right: 0.9rem;
 }
 
-@media screen and (max-width: 990px) {
-  .login-register-ul {
-    padding-left: 0px;
-    border-top: solid 1px #BFBFBF;
-  }
+.header-section .navbar .navbar-collapse .nav-item .nav-link.drop-down-toggle.show {
+  border-top: px solid transparent;
 }
 
-.dropdown-menu {
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu {
+  margin-top: 0;
+}
+
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu {
   border: 0;
   -webkit-box-shadow: 0px 1px 3px #666;
           box-shadow: 0px 1px 3px #666;
 }
 
-.dropdown-menu .drpm-cryptocurrencies {
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .drpm-cryptocurrencies {
   left: -43px;
 }
 
-.dropdown-menu .dropdown-item {
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
   border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17572,15 +17564,15 @@ readers do not read off random characters that represent icons */
   background-color: #fff;
 }
 
-.dropdown-menu .dropdown-item:hover {
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item:hover {
   background-color: whitesmoke;
 }
 
-.dropdown-menu .dropdown-item a {
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item a {
   text-decoration: none;
 }
 
-.dropdown-menu.show {
+.header-section .navbar .navbar-collapse .nav-item .dropdown-menu.show {
   -webkit-box-shadow: none;
           box-shadow: none;
   padding: 14px 50px 34px 50px;
@@ -17591,25 +17583,37 @@ readers do not read off random characters that represent icons */
   left: -43px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.header-section .navbar-light .navbar-nav .dropdown-menu {
+  margin-top: -10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
   color: #0a0a0a;
   font-weight: 500;
   padding: 20px;
 }
 
-.dropdown-menu {
-  margin-top: 0;
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+  color: #8a8a8a;
 }
 
-.nav-link.drop-down-toggle.show {
-  border-top: px solid transparent;
+.header-section .navbar-light .navbar-nav .nav-link.nav-link-bg {
+  background-color: #0a0a0a;
+  color: #fff;
+  width: 90px;
+  border: 1px solid transparent;
+  -webkit-transition: background-color 0.8s, color 0.8s, border 0.8s;
+  transition: background-color 0.8s, color 0.8s, border 0.8s;
+  padding: 12px;
 }
 
-.navbar-expand-lg .navbar-nav.dropdown-menu {
-  margin-top: -10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.header-section .navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
+  background-color: transparent;
+  color: #0a0a0a;
+  border: solid 1px #0a0a0a;
 }
 
 .btn-clp {
@@ -17659,22 +17663,20 @@ readers do not read off random characters that represent icons */
   padding-left: 55px;
 }
 
-.hero .hero-content .hero-image.img {
+.hero .hero-content .hero-image .img {
   width: 700px;
 }
 
-.hero .hero-content .hero-text1, .hero .hero-content .hero-text2 {
+.hero .hero-content .hero-text .hero-text1 {
   font-size: 3rem;
+  font-weight: 300;
   color: #fff;
 }
 
-.hero .hero-content .hero-text1 {
-  font-weight: 300;
-}
-
-.hero .hero-content .hero-text2 {
+.hero .hero-content .hero-text .hero-text2 {
   font-weight: 700;
   font-size: 4rem;
+  color: #fff;
 }
 
 .hero .hero-content .hero-par {
@@ -17683,26 +17685,16 @@ readers do not read off random characters that represent icons */
   max-width: 600px;
 }
 
-.img-fluid {
-  margin-left: 10px;
-}
-
-@media screen and (max-width: 399px) {
-  .img-fluid {
-    margin-left: -10px;
-  }
-}
-
 .clpw {
   background-color: #0a0a0a;
 }
 
-.clpw-wrapper {
+.clpw .clpw-wrapper {
   background-color: #0a0a0a;
   overflow: hidden;
 }
 
-.crypto-pairs {
+.clpw .crypto-pairs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17716,43 +17708,39 @@ readers do not read off random characters that represent icons */
 }
 
 @media screen and (min-width: 400px) {
-  .crypto-pairs {
+  .clpw .crypto-pairs {
     padding-left: 45px;
   }
 }
 
-.pair {
+.clpw .crypto-pairs .pair {
   background-color: #0a0a0a;
   padding: 31.8px 0;
   height: 150px;
 }
 
-.pair .price-big {
+.clpw .crypto-pairs .pair .price-big {
   line-height: 1.2;
   font-weight: 700;
   font-size: 1.6rem;
 }
 
-.pair .price-small {
+.clpw .crypto-pairs .pair .price-small {
   color: #f4db7d;
 }
 
-.percentage-pair {
+.clpw .crypto-pairs .pair .percentage-pair {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.percent-color-g {
+.clpw .crypto-pairs .pair .percentage-pair .percent-color-g {
   color: #32CD32;
 }
 
-.percent-color-r {
+.clpw .crypto-pairs .pair .percentage-pair .percent-color-r {
   color: #db1717;
-}
-
-.clpw.container {
-  max-width: 1850px;
 }
 
 .ms-about {
