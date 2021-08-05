@@ -17,10 +17,9 @@
     background-color: $dark;
     color: $white;
     width: 90px;
-    display: flex;
-    justify-content: center;
     border: 1px solid transparent;
     transition: background-color 0.8s, color 0.8s, border 0.8s;
+    padding: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
@@ -54,17 +53,31 @@
 .dropdown-menu{
     border: 0;
     box-shadow: 0px 1px 3px #666;
+
+    &.show {
+        box-shadow: none;
+        padding: 14px 0 1px 0;
+        line-height: 1.8rem;
+        margin-top: -3px;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: $dark;
     font-weight: 500;
-}
-
-.dropdown:hover .dropdown-menu{
-    display: block;
+    padding: 20px;
 }
 
 .dropdown-menu{
     margin-top: 0;
+}
+
+.nav-link.drop-down-toggle.show {
+    border-top: px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav.dropdown-menu {
+    margin-top: -10px;
+    align-items: center;
+
 }

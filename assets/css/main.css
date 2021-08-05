@@ -17518,15 +17518,10 @@ readers do not read off random characters that represent icons */
   background-color: #0a0a0a;
   color: #fff;
   width: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border: 1px solid transparent;
   -webkit-transition: background-color 0.8s, color 0.8s, border 0.8s;
   transition: background-color 0.8s, color 0.8s, border 0.8s;
+  padding: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
@@ -17571,17 +17566,33 @@ readers do not read off random characters that represent icons */
           box-shadow: 0px 1px 3px #666;
 }
 
+.dropdown-menu.show {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 14px 0 1px 0;
+  line-height: 1.8rem;
+  margin-top: -3px;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #0a0a0a;
   font-weight: 500;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
+  padding: 20px;
 }
 
 .dropdown-menu {
   margin-top: 0;
+}
+
+.nav-link.drop-down-toggle.show {
+  border-top: px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav.dropdown-menu {
+  margin-top: -10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer {

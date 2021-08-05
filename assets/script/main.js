@@ -1,12 +1,21 @@
 $(document).ready(function () {
 
-    $(".nav-link.dropdown-toggle").hover(function () {
-        let dropdownMenu = $(this).children(".nav-link.dropdown-toggle");
-        if (dropdownMenu.is(":visible")) {
-            dropdownMenu.parent().toggleClass("show");
+    //Navigation
+    $(".nav-item.dropdown").mouseenter(function () {
+        let dropdownMenu = $(this).children(".dropdown-menu");
+        if (!dropdownMenu.is(":visible")) {
+            dropdownMenu.addClass("show");
         }
     });
 
+   $(".nav-item.dropdown").mouseout(function () {
+        let dropdownMenu = $(this).children(".dropdown-menu");
+        if (dropdownMenu.is(":visible")) {
+            dropdownMenu.removeClass("show");
+        }
+    });
+
+    // Crypto Live Preview Widget
     const clpwPairs = {
 
         pair1: {
@@ -52,19 +61,11 @@ $(document).ready(function () {
         }
     };
 
-    $("#percPairName1").text(clpwPairs.pair1.name);
-    $("#percPairName2").text(clpwPairs.pair2.name);
-    $("#percPairName3").text(clpwPairs.pair3.name);
-    $("#percPairName4").text(clpwPairs.pair4.name);
-    $("#percPairName5").text(clpwPairs.pair5.name);
-    $("#percPairName6").text(clpwPairs.pair6.name);
-
-    
-    $(window).load(function() {
-
-        $(".hero-image").animate({
-            top: -200
-        }, 1500);
-    });
+    $(".pair1").find(".percentage-pair-name").text(clpwPairs.pair1.name);
+    $(".pair2").find(".percentage-pair-name").text(clpwPairs.pair2.name);
+    $(".pair3").find(".percentage-pair-name").text(clpwPairs.pair3.name);
+    $(".pair4").find(".percentage-pair-name").text(clpwPairs.pair4.name);
+    $(".pair5").find(".percentage-pair-name").text(clpwPairs.pair5.name);
+    $(".pair6").find(".percentage-pair-name").text(clpwPairs.pair6.name);
 
 });
