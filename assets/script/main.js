@@ -8,7 +8,7 @@ $(document).ready(function () {
         }
     });
 
-   //$(".nav-item.dropdown").mouseout(function () {
+   $(".nav-item.dropdown").mouseout(function () {
         let dropdownMenu = $(this).children(".dropdown-menu");
         if (dropdownMenu.is(":visible")) {
             dropdownMenu.removeClass("show");
