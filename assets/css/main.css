@@ -17461,7 +17461,7 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 767.98px) {
-  .percentage-pair-name, .price-small, .price-big {
+  .percentage-pair-name, .price-small, .price-big, .percent-color-g, .percent-color-r {
     font-size: 0.8rem;
   }
 }
@@ -17709,7 +17709,7 @@ readers do not read off random characters that represent icons */
 
 @media screen and (min-width: 400px) {
   .clpw .crypto-pairs {
-    padding-left: 45px;
+    padding-left: 69px;
   }
 }
 
@@ -17733,6 +17733,9 @@ readers do not read off random characters that represent icons */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .clpw .crypto-pairs .pair .percentage-pair .percent-color-g {

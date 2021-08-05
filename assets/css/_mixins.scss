@@ -1,8 +1,10 @@
 @include media-breakpoint-down(md){
-    .percentage-pair-name, .price-small, .price-big{
+    .percentage-pair-name, .price-small, .price-big, .percent-color-g, .percent-color-r{
         font-size: 0.8rem;
     }
+}
 
+@include media-breakpoint-down(md){
     .crypto-pairs .col-sm-6{
         height: 100%;
     }
