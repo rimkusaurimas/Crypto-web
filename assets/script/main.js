@@ -68,4 +68,12 @@ $(document).ready(function () {
     $(".pair5").find(".percentage-pair-name").text(clpwPairs.pair5.name);
     $(".pair6").find(".percentage-pair-name").text(clpwPairs.pair6.name);
 
+
+    // Hero section
+    $("#lrnbtn").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".ms-about").offset().top
+        }, 1000);
+    });
+
 });
