@@ -24,7 +24,8 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand logo" href="#"><img src="assets/img/logo.svg" class="img-fluid" alt="CLP Logo"></a>
+                    <a class="navbar-brand logo" href="#"><img src="assets/img/logo.svg" class="img-fluid"
+                            alt="CLP Logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -39,9 +40,18 @@
                                     Cryptocurrencies
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Ranking</a></li>
-                                    <li><a class="dropdown-item" href="#">Gainers & Losers</a></li>
-                                    <li><a class="dropdown-item" href="#">Recently added</a></li>
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-chart-line fonta-primary-submenu"></i>
+                                        <a href="#">Ranking</a>
+                                    </li>
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-arrows-alt-v fonta-primary-submenu"></i>
+                                        <a href="#">Gainers & Losers</a>
+                                    </li>
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-plus fonta-primary-submenu"></i>
+                                        <a href="#">Recently added</a>
+                                    </li>
                                 </ul>
                             </li>
 
@@ -50,10 +60,21 @@
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Exchanges
                                 </a>
+
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Spot</a></li>
-                                    <li><a class="dropdown-item" href="#">Derivatives</a></li>
-                                    <li><a class="dropdown-item" href="#">DEX</a></li>
+
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="far fa-circle fonta-primary-submenu"></i>
+                                        <a href="#">Spot</a>
+                                    </li>
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-shapes fonta-primary-submenu"></i>
+                                        <a href="#">Derivatives</a>
+                                    </li>
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-vector-square fonta-primary-submenu"></i>
+                                        <a href="#">DEX</a>
+                                    </li>
                                 </ul>
                             </li>
 
@@ -66,10 +87,24 @@
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Calendars
                                 </a>
+
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Free airdrops</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Events</a></li>
+
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-parachute-box fonta-primary-submenu"></i>
+                                        <a href="#">Free airdrops</a>
+                                    </li>
+
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-tasks fonta-primary-submenu"></i>
+                                        <a href="#">ICO Calendar</a>
+                                    </li>
+
+                                    <li class="drpm-pair dropdown-item">
+                                        <i class="fas fa-calendar-alt fonta-primary-submenu"></i>
+                                        <a href="#">Events</a>
+                                    </li>
+
                                 </ul>
                             </li>
 
@@ -84,7 +119,7 @@
                                     <a class="nav-link login" href="#"><i class="far fa-user"></i> Login</a>
                                 </li>
                                 <li class="nav-item register">
-                                    <a class="nav-link nav-link-bg" href="#">Register</a>
+                                    <a class="nav-link nav-link-bg btn-clp" href="#">Register</a>
                                 </li>
                             </div>
                         </ul>
@@ -265,18 +300,20 @@
         <!--End of CLP Widget-->
 
         <div class="section-divider-fromblack" style="height: 60px;"><img src="#" alt="section-divider-black"></div>
-        
+
         <!--Main sections (Short - MS)-->
 
         <!--About section"-->
-        <div class="ms-about inline-container" >
+        <div class="ms-about inline-container">
             <div class="ms-about-image">
                 <img src="#" alt="ms-about-image">
             </div>
             <div class="ms-about-text">
                 <h2 class="font-weight-normal">We made it <strong class="font-weight-bold">for you!</strong></h2>
-                <p class="ms-about-par">This platform was created for people to quickly access news and information about any changes in the crypto market.</p>
-                <div class="ms-about-quote"><i>"This started out as a bootcamp project and look at it now!" -</i> <b>Aurimas Rimkus</b>, creator of CLP.</div>
+                <p class="ms-about-par">This platform was created for people to quickly access news and information
+                    about any changes in the crypto market.</p>
+                <div class="ms-about-quote"><i>"This started out as a bootcamp project and look at it now!" -</i>
+                    <b>Aurimas Rimkus</b>, creator of CLP.</div>
             </div>
         </div>
         <!--About section end-->
@@ -285,7 +322,8 @@
         <div class="ms-perks"></div>
         <!--Perks section end-->
 
-        <div class="section-divider-fromblack" style="height: 40px;"><img src="#" alt="section-divider-black-alternate"></div>
+        <div class="section-divider-fromblack" style="height: 40px;"><img src="#" alt="section-divider-black-alternate">
+        </div>
 
         <!--Newsletter section-->
         <div class="section-newsletter"></div>
@@ -307,11 +345,12 @@
 
     </div>
 
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <script src="assets/script/main.js"></script>
 
