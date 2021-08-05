@@ -52,13 +52,19 @@ $(document).ready(function () {
         }
     };
 
-    $("#percPairName1").replaceWith(clpwPairs.pair1.name);
-    $("#percPairName2").replaceWith(clpwPairs.pair2.name);
-    $("#percPairName3").replaceWith(clpwPairs.pair3.name);
-    $("#percPairName4").replaceWith(clpwPairs.pair4.name);
-    $("#percPairName5").replaceWith(clpwPairs.pair5.name);
-    $("#percPairName6").replaceWith(clpwPairs.pair6.name);
+    $("#percPairName1").text(clpwPairs.pair1.name);
+    $("#percPairName2").text(clpwPairs.pair2.name);
+    $("#percPairName3").text(clpwPairs.pair3.name);
+    $("#percPairName4").text(clpwPairs.pair4.name);
+    $("#percPairName5").text(clpwPairs.pair5.name);
+    $("#percPairName6").text(clpwPairs.pair6.name);
 
     
+    $(window).load(function() {
+
+        $(".hero-image").animate({
+            top: -200
+        }, 1500);
+    });
 
 });

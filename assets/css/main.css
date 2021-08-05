@@ -17536,7 +17536,7 @@ readers do not read off random characters that represent icons */
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #727272;
+  color: #8a8a8a;
 }
 
 .login-register {
@@ -17610,10 +17610,6 @@ readers do not read off random characters that represent icons */
       -ms-flex-align: center;
           align-items: center;
   padding-left: 55px;
-}
-
-.hero .hero-content .hero-image {
-  padding-right: 300px;
 }
 
 .hero .hero-content .hero-image.img {
@@ -17737,7 +17733,7 @@ readers do not read off random characters that represent icons */
 
 .ms-perks {
   height: 350px;
-  background-color: wheat;
+  background-color: #fff;
 }
 
 .section-newsletter {
