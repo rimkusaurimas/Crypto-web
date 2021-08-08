@@ -45,28 +45,12 @@ $(document).ready(function () {
         }
     };
 
-    /*$(".pair1").find(".percentage-pair-name").text(clpwPairs.pair1.name);
-    $(".pair2").find(".percentage-pair-name").text(clpwPairs.pair2.name);
-    $(".pair3").find(".percentage-pair-name").text(clpwPairs.pair3.name);
-    $(".pair4").find(".percentage-pair-name").text(clpwPairs.pair4.name);
-    $(".pair5").find(".percentage-pair-name").text(clpwPairs.pair5.name);
-    $(".pair6").find(".percentage-pair-name").text(clpwPairs.pair6.name);*/
-
     for (let key in clpwPairs) {
         let pair = $("."+key);
-        if (pair.length > 0) {
+        /* if (pair.length > 0) {
             clpwPairs[key].percent;
-        }
-        console.log(clpwPairs[key].percent);
+        } */
     }
-        /* if ($('clpw').find(key){
-            
-        //let obj = $('clpw').find(key);
-        //pakeiciu procentus
-        //pakeiciu price
-        //pakeiciu usd price */
-    
-
 
     // Hero section
     $("#lrnbtn").click(function () {
