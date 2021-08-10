@@ -17486,6 +17486,12 @@ readers do not read off random characters that represent icons */
   font-size: 1.6rem;
 }
 
+.font-for-perks {
+  font-size: 50px;
+  padding-bottom: 10px;
+  color: #ff6a3d;
+}
+
 .header-section .navbar {
   font-weight: 400;
   padding: 0.3rem;
@@ -17753,8 +17759,8 @@ readers do not read off random characters that represent icons */
 }
 
 .ms-about {
-  height: 350px;
-  background-color: #fff;
+  height: auto;
+  background-color: #f3f1f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17776,8 +17782,39 @@ readers do not read off random characters that represent icons */
 }
 
 .ms-perks {
-  height: 350px;
+  height: auto;
+  background-color: #f3f1f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.ms-perks .perk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 30px;
+  max-width: 350px;
   background-color: #fff;
+  border-radius: 20px;
 }
 
 .section-newsletter {
@@ -17792,7 +17829,7 @@ readers do not read off random characters that represent icons */
 
 .ms-partners {
   height: 350px;
-  background-color: wheat;
+  background-color: #f3f1f2;
 }
 
 body {

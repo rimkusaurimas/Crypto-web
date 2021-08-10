@@ -1,4 +1,20 @@
 .ms-perks {
-    height: 350px;
-    background-color: $white;
+    height: auto;
+    background-color: $bgwhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
+    .perk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px;
+        max-width: 350px;
+        background-color: $white;
+        border-radius: 20px;
+    }
 }
