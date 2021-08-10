@@ -17774,7 +17774,8 @@ readers do not read off random characters that represent icons */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 70px;
+  padding-bottom: 110px;
+  padding-top: 40px;
 }
 
 .ms-about .ms-about-text {
@@ -17794,7 +17795,7 @@ readers do not read off random characters that represent icons */
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 .ms-perks .perk {
@@ -17818,8 +17819,55 @@ readers do not read off random characters that represent icons */
 }
 
 .section-newsletter {
-  height: 200px;
   background-color: #0a0a0a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section-newsletter .newsletter-text {
+  padding: 30px 0 60px 0;
+}
+
+.section-newsletter .newsletter-text .newsletter-text1 {
+  font-size: 1rem;
+  color: #ff6a3d;
+}
+
+.section-newsletter .newsletter-text .newsletter-text2 {
+  color: #fff;
+}
+
+.section-newsletter .newsletter-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.section-newsletter .newsletter-action .newsletter-input {
+  background-color: #0a0a0a;
+  border-top: 1px solid #ff6a3d;
+  border-bottom: 1px solid #ff6a3d;
+  border-left: 1px solid #ff6a3d;
+}
+
+.section-newsletter .newsletter-action .newsletter-button {
+  border: solid 1px #ff6a3d;
+  border-left: hidden;
 }
 
 .ms-updates {
@@ -17838,4 +17886,9 @@ body {
 
 .dropdown-toggle::after {
   display: none;
+}
+
+.form-control:focus, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }

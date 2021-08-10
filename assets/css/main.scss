@@ -12,11 +12,11 @@
 @import "footer";
 @import "hero";
 @import "clpw";
-@import "main-about";
-@import "main-perks";
+@import "ms-about";
+@import "ms-perks";
 @import "newsletter";
-@import "main-updates";
-@import "main-partners";
+@import "ms-updates";
+@import "ms-partners";
 
 body {
 	font-family: "Roboto", sans-serif;
@@ -24,6 +24,10 @@ body {
 
   .dropdown-toggle::after {
     display: none;
+  }
+
+  .form-control:focus, .btn:focus {
+    box-shadow: none;
   }
 
   
