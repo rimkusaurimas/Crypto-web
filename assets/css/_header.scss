@@ -1,3 +1,40 @@
+.modal-dialog {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modal-backdrop {
+    opacity: 0 !important;
+}
+
+.modal-content {
+    border: none;
+}
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 100%;
+    margin: 0px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+
+.modal-header .btn-close {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+
 .header-section {
     .navbar {
         font-weight: 400;
@@ -5,7 +42,7 @@
         text-transform: none;
 
         .navbar-brand {
-            padding: 10px; 
+            padding: 10px;
             width: 5.5rem;
 
             .img-fluid {
@@ -13,19 +50,20 @@
             }
         }
 
-        .navbar-collapse{
+        .navbar-collapse {
             .login-register-ul {
                 margin: 0rem;
+
                 @media screen and (max-width: 990px) {
                     padding-left: 0px;
                     border-top: solid 1px #BFBFBF;
                 }
-            
-                .login-register{
-                    display:flex;
+
+                .login-register {
+                    display: flex;
                     justify-content: flex-end;
                     align-content: center;
-                
+
                     .register {
                         margin: 0rem;
                     }
@@ -38,14 +76,14 @@
                 .nav-link.drop-down-toggle.show {
                     border-top: px solid transparent;
                 }
-            
+
                 &.dropdown:hover .dropdown-menu {
                     opacity: 1;
                     visibility: visible;
                     box-shadow: 0px -5px 15px -19px #000;
                 }
 
-                .dropdown-menu{
+                .dropdown-menu {
                     border: 0;
                     padding: 14px 34px 34px 34px;
                     line-height: 5rem;
@@ -61,32 +99,46 @@
                     opacity: 0;
                     visibility: hidden;
                     box-shadow: 0px 1px 3px #666;
-                
+
                     .drpm-cryptocurrencies {
                         left: -43px;
                     }
-                
+
                     .dropdown-item {
                         border-radius: 15px;
                         display: flex;
                         flex-direction: row;
                         align-items: center;
                         background-color: #fff;
-                
+
                         &:hover {
                             background-color: darken(#fff, 4%);
                         }
                     }
-                
-                    .dropdown-item a{
+
+                    .dropdown-item a {
                         text-decoration: none;
+                    }
+                }
+            }
+
+            .modal-text-fpw-reg {
+                display: flex;
+                justify-content: flex-start;
+
+                .fpw-reg {
+                    text-decoration: none;
+                    transition: 0.4s, color 0.4s, border 0.8s;
+
+                    &:hover {
+                        color: $primary;
                     }
                 }
             }
         }
     }
 
-    .navbar-light{
+    .navbar-light {
         .navbar-nav {
             .dropdown-menu {
                 margin-top: -10px;
@@ -112,8 +164,8 @@
                 transition: background-color 0.8s, color 0.8s, border 0.8s;
                 padding: 12px;
             }
-        
-           .nav-link.nav-link-bg:hover {
+
+            .nav-link.nav-link-bg:hover {
                 background-color: transparent;
                 color: $dark;
                 border: solid 1px $dark;

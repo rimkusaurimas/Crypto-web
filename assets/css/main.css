@@ -17492,6 +17492,50 @@ readers do not read off random characters that represent icons */
   color: #ff6a3d;
 }
 
+.modal-dialog {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-backdrop {
+  opacity: 0 !important;
+}
+
+.modal-content {
+  border: none;
+}
+
+.modal-dialog,
+.modal-content {
+  /* 80% of window height */
+  height: 100%;
+  margin: 0px;
+}
+
+.modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* 100% = dialog height, 120px = header + footer */
+  max-height: calc(100% - 120px);
+  overflow-y: scroll;
+}
+
+.modal-header .btn-close {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
 .header-section .navbar {
   font-weight: 400;
   padding: 0.3rem;
@@ -17593,6 +17637,25 @@ readers do not read off random characters that represent icons */
 
 .header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item a {
   text-decoration: none;
+}
+
+.header-section .navbar .navbar-collapse .modal-text-fpw-reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header-section .navbar .navbar-collapse .modal-text-fpw-reg .fpw-reg {
+  text-decoration: none;
+  -webkit-transition: 0.4s, color 0.4s, border 0.8s;
+  transition: 0.4s, color 0.4s, border 0.8s;
+}
+
+.header-section .navbar .navbar-collapse .modal-text-fpw-reg .fpw-reg:hover {
+  color: #ff6a3d;
 }
 
 .header-section .navbar-light .navbar-nav .dropdown-menu {
