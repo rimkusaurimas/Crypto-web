@@ -119,13 +119,32 @@
                             /* 100% = dialog height, 120px = header + footer */
                             max-height: calc(100% - 120px);
                             overflow-y: scroll;
+
+                            .modal-text-fpw-reg {
+                                display: flex; 
+                                justify-content: flex-end; 
+                                margin-top: -14px;
+    
+                                .fpw-reg {
+                                    text-decoration: none;
+                                    transition: 0.4s, color 0.4s, border 0.8s;
+                                    color: #666;
+    
+                                    &:hover {
+                                        color: $primary;
+                                    }
+                                }
+                            }
                         }
-
-                        .modal-text-fpw-reg {
+                        .modal-footer-text {
                             display: flex;
-                            justify-content: flex-start;
+                            flex-direction: row;
+                            justify-content: center;
+                            /* 100% = dialog height, 120px = header + footer */
+                            max-height: calc(100% - 120px);
+                            overflow-y: scroll;
 
-                            .fpw-reg {
+                            .modal-fth {
                                 text-decoration: none;
                                 transition: 0.4s, color 0.4s, border 0.8s;
 

@@ -17641,22 +17641,50 @@ readers do not read off random characters that represent icons */
   overflow-y: scroll;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-text-fpw-reg {
+.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -14px;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-text-fpw-reg .fpw-reg {
+.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg .fpw-reg {
+  text-decoration: none;
+  -webkit-transition: 0.4s, color 0.4s, border 0.8s;
+  transition: 0.4s, color 0.4s, border 0.8s;
+  color: #666;
+}
+
+.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg .fpw-reg:hover {
+  color: #ff6a3d;
+}
+
+.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* 100% = dialog height, 120px = header + footer */
+  max-height: calc(100% - 120px);
+  overflow-y: scroll;
+}
+
+.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-footer-text .modal-fth {
   text-decoration: none;
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-text-fpw-reg .fpw-reg:hover {
+.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-footer-text .modal-fth:hover {
   color: #ff6a3d;
 }
 
