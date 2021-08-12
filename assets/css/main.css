@@ -17768,7 +17768,7 @@ readers do not read off random characters that represent icons */
 }
 
 .hero {
-  height: calc(100vh - 247.6px);
+  height: calc(100vh - 210px);
   background-color: #0a0a0a;
 }
 
@@ -17893,7 +17893,7 @@ readers do not read off random characters that represent icons */
 }
 
 .ms-about .ms-about-text {
-  width: 450px;
+  width: 470px;
 }
 
 .ms-perks {
