@@ -1,40 +1,3 @@
-.modal-dialog {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.modal-backdrop {
-    opacity: 0 !important;
-}
-
-.modal-content {
-    border: none;
-}
-
-.modal-dialog,
-.modal-content {
-    /* 80% of window height */
-    height: 100%;
-    margin: 0px;
-}
-
-.modal-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    /* 100% = dialog height, 120px = header + footer */
-    max-height: calc(100% - 120px);
-    overflow-y: scroll;
-}
-
-.modal-header .btn-close {
-    margin-right: 1rem;
-    margin-top: 0.5rem;
-}
-
-
-
 .header-section {
     .navbar {
         font-weight: 400;
@@ -122,16 +85,55 @@
                 }
             }
 
-            .modal-text-fpw-reg {
-                display: flex;
-                justify-content: flex-start;
+            .modal.fade.show {
+                .modal-backdrop {
+                    opacity: 0 !important;
+                }
 
-                .fpw-reg {
-                    text-decoration: none;
-                    transition: 0.4s, color 0.4s, border 0.8s;
+                .modal-dialog,
+                .modal-content {
+                    /* 80% of window height */
+                    height: 100%;
+                    margin: 0px;
+                }
 
-                    &:hover {
-                        color: $primary;
+                .modal-dialog {
+                    max-width: 100%;
+                    max-height: 100%;
+                    height: 100%;
+                    margin: 0px;
+
+                    .modal-content {
+                        border: none;
+
+                        .modal-header .btn-close {
+                            margin-right: 1rem;
+                            margin-top: 0.5rem;
+                        }
+
+                        .modal-body {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: center;
+                            /* 100% = dialog height, 120px = header + footer */
+                            max-height: calc(100% - 120px);
+                            overflow-y: scroll;
+                        }
+
+                        .modal-text-fpw-reg {
+                            display: flex;
+                            justify-content: flex-start;
+
+                            .fpw-reg {
+                                text-decoration: none;
+                                transition: 0.4s, color 0.4s, border 0.8s;
+
+                                &:hover {
+                                    color: $primary;
+                                }
+                            }
+                        }
                     }
                 }
             }
