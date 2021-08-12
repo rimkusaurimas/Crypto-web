@@ -17738,6 +17738,12 @@ readers do not read off random characters that represent icons */
   color: #ff6a3d;
 }
 
+.btn-close:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .footer {
   height: 200px;
   background-color: #fff;
@@ -17751,13 +17757,13 @@ readers do not read off random characters that represent icons */
   opacity: 1;
 }
 
-.footer a.text-white {
+.footer .text-white {
   text-decoration: none;
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
 }
 
-.footer a.text-white:hover {
+.footer .text-white:hover {
   color: #ff6a3d;
 }
 
@@ -17972,6 +17978,7 @@ readers do not read off random characters that represent icons */
   border-top: 1px solid #ff6a3d;
   border-bottom: 1px solid #ff6a3d;
   border-left: 1px solid #ff6a3d;
+  color: #fff;
 }
 
 .section-newsletter .newsletter-action .newsletter-button {
