@@ -3,10 +3,9 @@
     background-color: $bgwhite;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 110px;
-    padding-top: 40px;
+    padding: 80px 97px 110px 97px;
 
     .ms-about-text {
         width: 450px;

@@ -17783,7 +17783,7 @@ readers do not read off random characters that represent icons */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: calc(100vh - 247.6px);
+  height: calc(100vh - 210px);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -17883,14 +17883,13 @@ readers do not read off random characters that represent icons */
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 110px;
-  padding-top: 40px;
+  padding: 80px 97px 110px 97px;
 }
 
 .ms-about .ms-about-text {
@@ -17903,8 +17902,9 @@ readers do not read off random characters that represent icons */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -17952,7 +17952,7 @@ readers do not read off random characters that represent icons */
 }
 
 .section-newsletter .newsletter-text {
-  padding: 30px 0 60px 0;
+  padding: 30px 0 40px 0;
 }
 
 .section-newsletter .newsletter-text .newsletter-text1 {
