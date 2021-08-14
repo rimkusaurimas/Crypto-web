@@ -17986,13 +17986,46 @@ readers do not read off random characters that represent icons */
   border-left: hidden;
 }
 
+.shape-triangle {
+  width: 0;
+  height: 0;
+  border-top: 91.6px solid #ff6a3d;
+  border-right: 91.6px solid transparent;
+  position: absolute;
+  margin-top: -2.84rem;
+  margin-left: -19.47rem;
+}
+
 .ms-updates {
-  height: 350px;
   background-color: #0a0a0a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  max-height: 18rem;
+  overflow: hidden;
+}
+
+.ms-updates .updates-item {
+  border: 1px solid #ff6a3d;
+  padding: 2.8rem 19.5rem;
+}
+
+.ms-updates .updates-item .updates-item-shape .shape-symbol {
+  position: absolute;
+  color: white;
+  font-size: 1.4rem;
+  margin: -1.9rem 0 0 -18.3rem;
 }
 
 .ms-partners {
-  height: 350px;
   background-color: #f3f1f2;
 }
 
@@ -18006,11 +18039,23 @@ readers do not read off random characters that represent icons */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2rem 0 4rem 0;
 }
 
 .ms-partners .partner-pairs .partner-pair {
   text-align: center;
   font-weight: 400;
+}
+
+.ms-partners .partner-pairs .partner-pair img {
+  width: 90px;
+  border-radius: 100%;
+  -webkit-transition: 0.4s, color 0.4s, border 0.8s;
+  transition: 0.4s, color 0.4s, border 0.8s;
+}
+
+.ms-partners .partner-pairs .partner-pair img:hover {
+  opacity: 70%;
 }
 
 body {

@@ -1,4 +1,34 @@
+// Shape
+.shape-triangle {
+    width: 0;
+    height: 0;
+    border-top: 91.6px solid $primary;
+    border-right: 91.6px solid transparent;
+    position: absolute;
+    margin-top: -2.84rem;
+    margin-left: -19.47rem;
+}
+
 .ms-updates {
-    height: 350px;
     background-color: $dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    max-height: 18rem;
+    overflow: hidden;
+
+    .updates-item {
+        border: 1px solid $primary;
+        padding: 2.8rem 19.5rem;
+
+        .updates-item-shape {
+            .shape-symbol {
+                position: absolute;
+                color: white;
+                font-size: 1.4rem;
+                margin: -1.9rem 0 0 -18.3rem;
+            }
+        }
+    }
 }
