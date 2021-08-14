@@ -17996,6 +17996,23 @@ readers do not read off random characters that represent icons */
   background-color: #f3f1f2;
 }
 
+.ms-partners .partner-pairs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ms-partners .partner-pairs .partner-pair {
+  text-align: center;
+  font-weight: 400;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
