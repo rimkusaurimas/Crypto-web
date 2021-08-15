@@ -17986,9 +17986,38 @@ readers do not read off random characters that represent icons */
   width: 470px;
 }
 
+@media screen and (max-width: 941px) {
+  .ms-about .ms-about-text {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    width: auto;
+  }
+}
+
 .ms-about .ms-about-image img {
   width: 300px;
   padding-top: 2rem;
+  display: none;
+}
+
+@media screen and (min-width: 941px) {
+  .ms-about .ms-about-image img {
+    display: block;
+  }
 }
 
 .ms-perks {

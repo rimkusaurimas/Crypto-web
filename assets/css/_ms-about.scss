@@ -10,12 +10,28 @@
 
     .ms-about-text {
         width: 470px;
+
+        @media screen and (max-width: 941px) {
+            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 20px;
+            width: auto;
+        }
     }
 
     .ms-about-image {
         img {
             width: 300px;
             padding-top: 2rem;
+            display: none;
+
+            @media screen and (min-width: 941px) {
+                display: block;
+            }
         }
     }
 }
