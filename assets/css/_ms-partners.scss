@@ -15,9 +15,10 @@
                 width: 90px;
                 border-radius: 100%;
                 transition: 0.4s, color 0.4s, border 0.8s;
+                opacity: 40%;
 
                 &:hover {
-                    opacity: 70%;
+                    opacity: 100%;
                 }
             }
         }

@@ -17486,12 +17486,6 @@ readers do not read off random characters that represent icons */
   font-size: 1.6rem;
 }
 
-.font-for-perks {
-  font-size: 50px;
-  padding-bottom: 10px;
-  color: #ff6a3d;
-}
-
 .header-section .navbar {
   font-weight: 400;
   padding: 0.3rem;
@@ -17770,6 +17764,7 @@ readers do not read off random characters that represent icons */
 .hero {
   height: calc(100vh - 210px);
   background-color: #0a0a0a;
+  cursor: default;
 }
 
 .hero .hero-content {
@@ -17883,17 +17878,23 @@ readers do not read off random characters that represent icons */
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 80px 97px 110px 97px;
+  padding: 80px 97px 70px 97px;
+  cursor: default;
 }
 
 .ms-about .ms-about-text {
   width: 470px;
+}
+
+.ms-about .ms-about-image img {
+  width: 300px;
+  padding-top: 2rem;
 }
 
 .ms-perks {
@@ -17905,9 +17906,9 @@ readers do not read off random characters that represent icons */
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: flex start;
+      -ms-flex-align: flex start;
+          align-items: flex start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-bottom: 70px;
@@ -17921,9 +17922,9 @@ readers do not read off random characters that represent icons */
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -17931,6 +17932,25 @@ readers do not read off random characters that represent icons */
   max-width: 350px;
   background-color: #fff;
   border-radius: 20px;
+  cursor: default;
+  -webkit-transition: 0.4s, color 0.4s, border 0.8s;
+  transition: 0.4s, color 0.4s, border 0.8s;
+  opacity: 70%;
+}
+
+.ms-perks .perk:hover {
+  opacity: 100%;
+}
+
+.ms-perks .perk h1, .ms-perks .perk .h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ms-perks .perk .font-for-perks {
+  font-size: 50px;
+  padding-bottom: 1.5rem;
+  color: #ff6a3d;
 }
 
 .section-newsletter {
@@ -18009,13 +18029,34 @@ readers do not read off random characters that represent icons */
       -ms-flex-align: center;
           align-items: center;
   padding-top: 40px;
-  max-height: 18rem;
   overflow: hidden;
 }
 
 .ms-updates .updates-item {
   border: 1px solid #ff6a3d;
   padding: 2.8rem 19.5rem;
+  max-width: 19.5rem;
+  max-height: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.ms-updates .updates-item .updates-button {
+  border-left: hidden;
+  font-size: 1.1rem;
+  margin-top: -2.85rem;
+  width: 104.5px;
+  height: 91.3px;
+  position: absolute;
+  right: 25.44rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ms-updates .updates-item .updates-item-shape .shape-symbol {
@@ -18023,6 +18064,14 @@ readers do not read off random characters that represent icons */
   color: white;
   font-size: 1.4rem;
   margin: -1.9rem 0 0 -18.3rem;
+}
+
+.ms-updates .updates-item h2, .ms-updates .updates-item .h2 {
+  color: #fff;
+  margin: -1.8rem 0 0 -13rem;
+  font-size: 1rem;
+  position: absolute;
+  max-width: 25rem;
 }
 
 .ms-partners {
@@ -18052,10 +18101,11 @@ readers do not read off random characters that represent icons */
   border-radius: 100%;
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
+  opacity: 40%;
 }
 
 .ms-partners .partner-pairs .partner-pair img:hover {
-  opacity: 70%;
+  opacity: 100%;
 }
 
 body {

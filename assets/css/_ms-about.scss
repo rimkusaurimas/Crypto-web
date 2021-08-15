@@ -3,11 +3,19 @@
     background-color: $bgwhite;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 80px 97px 110px 97px;
+    padding: 80px 97px 70px 97px;
+    cursor: default;
 
     .ms-about-text {
         width: 470px;
+    }
+
+    .ms-about-image {
+        img {
+            width: 300px;
+            padding-top: 2rem;
+        }
     }
 }

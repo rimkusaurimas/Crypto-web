@@ -15,12 +15,27 @@
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
-    max-height: 18rem;
     overflow: hidden;
 
     .updates-item {
         border: 1px solid $primary;
         padding: 2.8rem 19.5rem;
+        max-width: 19.5rem;
+        max-height: 2.8rem;
+        margin-bottom: 2.4rem;
+
+        .updates-button {
+            border-left: hidden;
+            font-size: 1.1rem;
+            margin-top: -2.85rem;
+            width: 104.5px;
+            height: 91.3px;
+            position: absolute;
+            right: 25.44rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         .updates-item-shape {
             .shape-symbol {
@@ -29,6 +44,14 @@
                 font-size: 1.4rem;
                 margin: -1.9rem 0 0 -18.3rem;
             }
+        }
+
+        h2 {
+            color: $white;
+            margin: -1.8rem 0 0 -13rem;
+            font-size: 1rem;
+            position: absolute;
+            max-width: 25rem;
         }
     }
 }

@@ -1,6 +1,7 @@
 .hero {
     height: calc(100vh - 210px);
     background-color: $dark;
+    cursor: default;
 
     .hero-content{
         display: flex;
