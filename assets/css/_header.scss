@@ -1,8 +1,18 @@
 .header-section {
+
     .navbar {
         font-weight: 400;
         padding: 0.3rem;
         text-transform: none;
+
+        .navbar-toggler {
+            border: none;
+
+            .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
 
         .navbar-brand {
             padding: 10px;
@@ -121,21 +131,22 @@
                             overflow-y: scroll;
 
                             .modal-text-fpw-reg {
-                                display: flex; 
-                                justify-content: flex-end; 
+                                display: flex;
+                                justify-content: flex-end;
                                 margin-top: -14px;
-    
+
                                 .fpw-reg {
                                     text-decoration: none;
                                     transition: 0.4s, color 0.4s, border 0.8s;
                                     color: #666;
-    
+
                                     &:hover {
                                         color: $primary;
                                     }
                                 }
                             }
                         }
+
                         .modal-footer-text {
                             display: flex;
                             flex-direction: row;

@@ -17492,6 +17492,16 @@ readers do not read off random characters that represent icons */
   text-transform: none;
 }
 
+.header-section .navbar .navbar-toggler {
+  border: none;
+}
+
+.header-section .navbar .navbar-toggler .navbar-toggler:focus, .header-section .navbar .navbar-toggler .navbar-toggler:active, .header-section .navbar .navbar-toggler .navbar-toggler-icon:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .header-section .navbar .navbar-brand {
   padding: 10px;
   width: 5.5rem;
@@ -17762,7 +17772,6 @@ readers do not read off random characters that represent icons */
 }
 
 .hero {
-  height: calc(100vh - 210px);
   background-color: #0a0a0a;
   cursor: default;
 }
@@ -17785,7 +17794,6 @@ readers do not read off random characters that represent icons */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: calc(100vh - 210px);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -18003,7 +18011,7 @@ readers do not read off random characters that represent icons */
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 3rem;
     width: auto;
   }
 }
@@ -18059,6 +18067,12 @@ readers do not read off random characters that represent icons */
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
   opacity: 70%;
+}
+
+@media screen and (max-width: 940px) {
+  .ms-perks .perk {
+    opacity: 100%;
+  }
 }
 
 .ms-perks .perk:hover {
@@ -18169,7 +18183,6 @@ readers do not read off random characters that represent icons */
   margin-top: -2.85rem;
   width: 104.5px;
   height: 91.3px;
-  position: absolute;
   right: 25.44rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18205,18 +18218,21 @@ readers do not read off random characters that represent icons */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 0 4rem 0;
+  padding: 1rem 0.9rem 1rem 0.9rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .ms-partners .partner-pairs .partner-pair {
   text-align: center;
   font-weight: 400;
+  height: 200px;
+  width: 123px;
 }
 
 .ms-partners .partner-pairs .partner-pair img {
@@ -18225,6 +18241,12 @@ readers do not read off random characters that represent icons */
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
   opacity: 40%;
+}
+
+@media screen and (max-width: 940px) {
+  .ms-partners .partner-pairs .partner-pair img {
+    opacity: 100%;
+  }
 }
 
 .ms-partners .partner-pairs .partner-pair img:hover {
