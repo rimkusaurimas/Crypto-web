@@ -202,10 +202,9 @@
         <div class="clpw-wrapper container-fluid crypto-pairs row">
 
             <div class="col-md-4 col-6 col-xxl-2 pair pair1">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name" id="percPairName1">BTC/USD</div> &nbsp;
-                    <div class="percent-color-g">+12.3%</div>
+                    <div class="percentage-pair-name">BTC/USD</div> &nbsp;
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">38,267</div>
@@ -217,7 +216,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">ETH/USDT</div> &nbsp;
-                    <div class="percent-color-r">-5.93%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">2,237.04</div>
@@ -229,7 +228,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">AXS/BNB</div> &nbsp;
-                    <div class="percent-color-g">+34.37%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">0.137789</div>
@@ -241,7 +240,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">DOGE/USDT</div> &nbsp;
-                    <div class="percent-color-r">-10.73%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">0.20016</div>
@@ -253,7 +252,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">BTC/USDT</div> &nbsp;
-                    <div class="percent-color-g">+12.3%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">38,267</div>
@@ -265,7 +264,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">ETH/USDT</div> &nbsp;
-                    <div class="percent-color-r">-5.93%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">2,237.04</div>
@@ -277,7 +276,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">AXS/BNB</div> &nbsp;
-                    <div class="percent-color-g">+34.37%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">0.137789</div>
@@ -289,7 +288,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">DOGE/USDT</div> &nbsp;
-                    <div class="percent-color-r">-10.73%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">0.20016</div>
@@ -301,7 +300,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">BTC/USDT</div> &nbsp;
-                    <div class="percent-color-g">+12.3%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">38,267</div>
@@ -313,7 +312,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">ETH/USDT</div> &nbsp;
-                    <div class="percent-color-r">-5.93%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">2,237.04</div>
@@ -325,7 +324,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">AXS/BNB</div> &nbsp;
-                    <div class="percent-color-g">+34.37%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">0.137789</div>
@@ -337,7 +336,7 @@
 
                 <div class="percentage-pair">
                     <div class="percentage-pair-name">DOGE/USDT</div> &nbsp;
-                    <div class="percent-color-r">-10.73%</div>
+                    <div class="clpw-percent"></div>
                 </div>
 
                 <div class="price-big">0.20016</div>

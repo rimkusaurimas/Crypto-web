@@ -39,7 +39,7 @@ $(document).ready(function () {
 
         pair6: {
             name: "!WIN/TRX",
-            percent: 5.58,
+            percent: 0,
             dollarValue: 0.00038,
             value: 0.00568
         }
@@ -47,10 +47,17 @@ $(document).ready(function () {
 
     for (let key in clpwPairs) {
         let pair = $("." + key);
-        console.log(pair);
-        /* if (pair.length > 0) {
-            clpwPairs[key].percent;
-        } */
+
+        if (pair.length > 0) {
+            let procentai = pair.find(".clpw-percent").append(clpwPairs[key].percent + "%");
+            if (clpwPairs[key].percent < 0) {
+                procentai.css("color", "rgb(246, 70, 93)");
+            } else if (clpwPairs[key].percent == 0){
+                procentai.css("color", "grey");
+            } else {
+                procentai.css("color", "rgb(14, 203, 129)");
+            }
+        }
     }
 
     // Hero section
