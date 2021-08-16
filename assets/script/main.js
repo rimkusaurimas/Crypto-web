@@ -46,7 +46,8 @@ $(document).ready(function () {
     };
 
     for (let key in clpwPairs) {
-        let pair = $("."+key);
+        let pair = $("." + key);
+        console.log(pair);
         /* if (pair.length > 0) {
             clpwPairs[key].percent;
         } */
@@ -59,19 +60,13 @@ $(document).ready(function () {
         }, 1000);
     });
 
-    //Sign up form
-    $("#sign-up").click(function() {
-        $("#log-in-form").hide();
-        $("#sign-up-form").show();
-        $("#log-in-text").show();
-        $("#sign-up-text").hide();
-    });
-    $("#log-in").click(function() {
-        $("#log-in-form").show();
-        $("#sign-up-form").hide();
-        $("#log-in-text").hide();
-        $("#sign-up-text").show();
-        
+    //Sign up form toggle
+    $('#log-in-text').hide();
+    $('#sign-up-form').hide();
+
+    $('#log-in, #sign-up').mousedown(function () {
+        $('#log-in-text, #sign-up-text').toggle()
+        $('#sign-up-form, #log-in-form').toggle()
     });
 
 });

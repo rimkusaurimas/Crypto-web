@@ -17486,45 +17486,45 @@ readers do not read off random characters that represent icons */
   font-size: 1.6rem;
 }
 
-.header-section .navbar {
+.navbar {
   font-weight: 400;
   padding: 0.3rem;
   text-transform: none;
 }
 
-.header-section .navbar .navbar-toggler {
+.navbar .navbar-toggler {
   border: none;
 }
 
-.header-section .navbar .navbar-toggler:focus,
-.header-section .navbar .navbar-toggler .navbar-toggler:active,
-.header-section .navbar .navbar-toggler .navbar-toggler-icon:focus {
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler .navbar-toggler:active,
+.navbar .navbar-toggler .navbar-toggler-icon:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.header-section .navbar .navbar-brand {
+.navbar .navbar-brand {
   padding: 10px;
   width: 5.5rem;
 }
 
-.header-section .navbar .navbar-brand .img-fluid {
+.navbar .navbar-brand .img-fluid {
   margin-left: 10px;
 }
 
-.header-section .navbar .navbar-collapse .login-register-ul {
+.navbar .navbar-collapse .login-register-ul {
   margin: 0rem;
 }
 
 @media screen and (max-width: 990px) {
-  .header-section .navbar .navbar-collapse .login-register-ul {
+  .navbar .navbar-collapse .login-register-ul {
     padding-left: 0px;
     border-top: solid 1px #BFBFBF;
   }
 }
 
-.header-section .navbar .navbar-collapse .login-register-ul .login-register {
+.navbar .navbar-collapse .login-register-ul .login-register {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17535,32 +17535,33 @@ readers do not read off random characters that represent icons */
       align-content: center;
 }
 
-.header-section .navbar .navbar-collapse .login-register-ul .login-register .register {
+.navbar .navbar-collapse .login-register-ul .login-register .register {
   margin: 0rem;
 }
 
-.header-section .navbar .navbar-collapse .nav-item {
+.navbar .navbar-collapse .nav-item {
   margin-right: 0.9rem;
 }
 
 @media screen and (max-width: 990px) {
-  .header-section .navbar .navbar-collapse .nav-item .nav-link.dropdown-toggle, .header-section .navbar .navbar-collapse .nav-item a.nav-link {
+  .navbar .navbar-collapse .nav-item .nav-link.dropdown-toggle,
+  .navbar .navbar-collapse .nav-item a.nav-link {
     text-align: center;
   }
 }
 
-.header-section .navbar .navbar-collapse .nav-item .nav-link.drop-down-toggle.show {
+.navbar .navbar-collapse .nav-item .nav-link.drop-down-toggle.show {
   border-top: px solid transparent;
 }
 
-.header-section .navbar .navbar-collapse .nav-item.dropdown:hover .dropdown-menu {
+.navbar .navbar-collapse .nav-item.dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   -webkit-box-shadow: 0px -5px 15px -19px #000;
           box-shadow: 0px -5px 15px -19px #000;
 }
 
-.header-section .navbar .navbar-collapse .nav-item .dropdown-menu {
+.navbar .navbar-collapse .nav-item .dropdown-menu {
   border: 0;
   padding: 14px 34px 34px 34px;
   line-height: 5rem;
@@ -17581,7 +17582,7 @@ readers do not read off random characters that represent icons */
 }
 
 @media screen and (max-width: 990px) {
-  .header-section .navbar .navbar-collapse .nav-item .dropdown-menu {
+  .navbar .navbar-collapse .nav-item .dropdown-menu {
     visibility: visible;
     opacity: 1;
     -webkit-box-shadow: none;
@@ -17589,11 +17590,11 @@ readers do not read off random characters that represent icons */
   }
 }
 
-.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .drpm-cryptocurrencies {
+.navbar .navbar-collapse .nav-item .dropdown-menu .drpm-cryptocurrencies {
   left: -43px;
 }
 
-.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
+.navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
   border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17609,46 +17610,46 @@ readers do not read off random characters that represent icons */
 }
 
 @media screen and (max-width: 990px) {
-  .header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
+  .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
-.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item:hover {
+.navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item:hover {
   background-color: whitesmoke;
 }
 
-.header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item a {
+.navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item a {
   text-decoration: none;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-backdrop {
+.navbar .navbar-collapse .modal.fade.show .modal-backdrop {
   opacity: 0 !important;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog,
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-content {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog,
+.navbar .navbar-collapse .modal.fade.show .modal-content {
   /* 80% of window height */
   height: 100%;
   margin: 0px;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog {
   max-width: 100%;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content {
   border: none;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-header .btn-close {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-header .btn-close {
   margin-right: 1rem;
   margin-top: 0.5rem;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17666,7 +17667,7 @@ readers do not read off random characters that represent icons */
   padding-top: 0px;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17676,18 +17677,18 @@ readers do not read off random characters that represent icons */
   margin-top: -14px;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg .fpw-reg {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg .fpw-reg {
   text-decoration: none;
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
   color: #666;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg .fpw-reg:hover {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body .modal-text-fpw-reg .fpw-reg:hover {
   color: #ff6a3d;
 }
 
-.header-section .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-footer-text {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-footer-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17701,30 +17702,30 @@ readers do not read off random characters that represent icons */
   padding-top: 1.45rem;
 }
 
-.header-section .navbar-light .navbar-nav .dropdown-menu {
+.navbar-light .navbar-nav .dropdown-menu {
   margin-top: -10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.header-section .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #0a0a0a;
   font-weight: 500;
   padding: 20px;
 }
 
-.header-section .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #8a8a8a;
 }
 
 @media screen and (max-width: 990px) {
-  .header-section .navbar-light .navbar-nav .nav-link .dropdown-menu {
+  .navbar-light .navbar-nav .nav-link .dropdown-menu {
     visibility: visible;
   }
 }
 
-.header-section .navbar-light .navbar-nav .nav-link.nav-link-bg {
+.navbar-light .navbar-nav .nav-link.nav-link-bg {
   background-color: #0a0a0a;
   color: #fff;
   width: 90px;
@@ -17734,7 +17735,7 @@ readers do not read off random characters that represent icons */
   padding: 12px;
 }
 
-.header-section .navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
+.navbar-light .navbar-nav .nav-link.nav-link-bg:hover {
   background-color: transparent;
   color: #0a0a0a;
   border: solid 1px #0a0a0a;
