@@ -129,8 +129,8 @@
                                         </div>
                                         <div class="modal-body">
                                             <img src="assets/img/logo.svg" alt=""
-                                                style="width: 110px; padding: 3rem 0px;">
-                                            <form style="width: 25rem;">
+                                                style="width: 90px; padding-bottom: 2rem;">
+                                            <form style="width: 25rem;" id="log-in-form">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" id="user-modal-name"
                                                         aria-describedby="emailHelp" placeholder="User name">
@@ -151,10 +151,54 @@
                                                         In</button>
                                                 </div>
                                             </form>
+
+                                            <form style="width: 25rem; display: none;" id="sign-up-form">
+                                                <div class="form-row align-items-center">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="inlineFormInputName"
+                                                            placeholder="Full Name">
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="user-modal-email"
+                                                            aria-describedby="emailHelp" placeholder="Email address">
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" id="user-modal-name"
+                                                            aria-describedby="emailHelp" placeholder="User name">
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <input type="password" class="form-control"
+                                                            id="user-modal-password" placeholder="Password">
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <input type="password" class="form-control"
+                                                            id="user-modal-password2" placeholder="Repeat password">
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="agreeCheck">
+                                                        <label class="form-check-label" for="agreeCheck">By clicking on this box you agree with our <a href="#" style="text-decoration: none; color: #ff6a3d;">Terms & Conditions</a></label>
+                                                      </div>
+                                                      <br>
+                                                    <div style="display: flex; justify-content: center;">
+                                                        <button type="submit" class="btn btn-primary btn-clp form-control"
+                                                            style="width: 100%;">Register</button>
+                                                    </div>
+                                            </form>
+
                                         </div>
-                                        <div class="modal-footer-text">
-                                            <p>Not a member yet?</p>&nbsp;<a class="orange-link" href="#"><strong>Sign
+                                        <div id="sign-up-text" class="modal-footer-text">
+                                            <p>Not a member yet?</p>&nbsp;<a id="sign-up" class="orange-link"
+                                                href="#"><strong>Sign
                                                     up!</strong></a>
+                                        </div>
+                                        <div id="log-in-text" class="modal-footer-text" style="display: none;">
+                                            <p>Have an account?</p>&nbsp;<a id="log-in" class="orange-link"
+                                                href="#"><strong>Log in!</strong></a>
                                         </div>
                                     </div>
                                 </div>
@@ -392,7 +436,6 @@
 
         <!--Newsletter section-->
         <div class="section-newsletter">
-            <div><img src="" alt="" style="width: 250px;"></div>
             <div class="newsletter-content">
                 <div class="newsletter-text">
                     <h1 class="newsletter-text1">Be the first to get the crypto feed!</h1>
@@ -405,7 +448,6 @@
                         style="border-left: hidden; font-size: 1.1rem;">
                 </form>
             </div>
-            <div><img src="" alt="" style="width: 250px;"></div>
         </div>
 
         <!--Platform updates section-->
@@ -426,173 +468,176 @@
                 </div>
             </div>
 
-                <div class="updates-item">
-                    <div class="updates-item-shape">
-                        <div class="shape-triangle"></div>
-                        <i class="fas fa-parachute-box shape-symbol" style="padding: 1rem;"></i>
+            <div class="updates-item">
+                <div class="updates-item-shape">
+                    <div class="shape-triangle"></div>
+                    <i class="fas fa-parachute-box shape-symbol" style="padding: 1rem;"></i>
+                </div>
+                <div class="updates-item-txtbtn">
+                    <div style="align-self: center;">
+                        <h2>Upcoming QNFT air-drops. Watch out!</h2>
                     </div>
-                    <div class="updates-item-txtbtn">
-                        <div style="align-self: center;">
-                            <h2>Upcoming QNFT air-drops. Watch out!</h2>
-                        </div>
-                        <div class="btn btn-clp newsletter-button updates-button" type="submit"
-                            style="border: hidden; font-size: 1.1rem;">
-                            <span>soon</span>
-                        </div>
+                    <div class="btn btn-clp newsletter-button updates-button" type="submit"
+                        style="border: hidden; font-size: 1.1rem;">
+                        <span>soon</span>
                     </div>
-                </div>  
-
-        <div class="section-divider-fromblack" style="height: 0px;"><img src="assets/img/tilt-main-small-inverse.svg"
-                alt="section-divider-black" style="width: 100%; height: 4rem;"></div>
-
-        <!--Partners section-->
-        <div class="ms-partners">
-            <h2 class="font-weight-bold" style="color: #ff6a3d; padding: 5rem 0 3rem 55px;">Our partners</h2>
-            <div class="partner-pairs">
-                <div class="partner-pair"><a href="https://www.vilniuscoding.lt/" class="orange-link" target="_blank">
-                        <img src="assets/img/vcs-logo.jpg" alt="vcs-logo">
-                        <br>
-                        <br>
-                        <p>Vilnius Coding School</p>
-                    </a>
-                </div>
-                <div class="partner-pair"><a href="https://www.binance.com/en" class="orange-link" target="_blank">
-                        <img src="assets/img/binance-logo.jpg" alt="binance-logo">
-                        <br>
-                        <br>
-                        <p>Binance</p>
-                    </a>
-                </div>
-                <div class="partner-pair"><a href="https://coinmarketcap.com/" class="orange-link" target="_blank">
-                        <img src="assets/img/coin-market-cap-logo.jpg" alt="cmc-logo">
-                        <br>
-                        <br>
-                        <p>Coin Market Cap</p>
-                    </a>
-                </div>
-                <div class="partner-pair"><a href="http://www.kaunas.lt/" class="orange-link" target="_blank">
-                        <img src="assets/img/kaunas-logo.jpg" alt="kaunas-logo">
-                        <br>
-                        <br>
-                        <p>Kaunas City</p>
-                    </a>
-                </div>
-                <div class="partner-pair"> <a href="https://vilnius.lt/en/" class="orange-link" target="_blank">
-                        <img src="assets/img/vilnius-logo.png" alt="vilnius-logo">
-                        <br>
-                        <br>
-                        <p>Vilnius City</p>
-                    </a>
-                </div>
-                <div class="partner-pair"><a href="https://creativecoda.com/" class="orange-link" target="_blank">
-                        <img src="assets/img/coda-logo.png" alt="coda-logo">
-                        <br>
-                        <br>
-                        <p>CODA</p>
-                    </a>
                 </div>
             </div>
-        </div>
 
-        <!--Footer-->
-        <div class="footer">
-            <footer class="text-center text-lg-start " style="background-color: #0a0a0a">
-                <!-- Social media -->
-                <section class="d-flex justify-content-between p-4" style="background-color: #ff6a3d">
-                    <div class="me-5">
-                        <span style="color: #fff;">Find us on social medias</span>
-                    </div>
-                    <div>
-                        <a href="" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
-                        <a href="" class="text-white me-4"><i class="fab fa-instagram"></i></a>
-                        <a href="" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
-                        <a href="" class="text-white me-4"><i class="fab fa-github"></i></a>
-                    </div>
-                </section>
+            <div class="section-divider-fromblack" style="height: 0px;"><img
+                    src="assets/img/tilt-main-small-inverse.svg" alt="section-divider-black"
+                    style="width: 100%; height: 4rem;"></div>
 
-                <section class="">
-                    <div class="container text-center text-md-start mt-5">
-                        <div class="row mt-3">
-                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                                <h6 class="text-uppercase fw-bold">About us</h6>
-                                <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
-                                    style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                                <p>
-                                    <a href="#!" class="text-white orange-link">Career</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">About</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">Privacy</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">Terms</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">Business contacts</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">News</a>
-                                </p>
-                            </div>
-                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                                <h6 class="text-uppercase fw-bold">Support</h6>
-                                <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
-                                    style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                                <p>
-                                    <a href="#" class="text-white orange-link">Give us feedback</a>
-                                </p>
-                                <p>
-                                    <a href="#" class="text-white orange-link">Support center</a>
-                                </p>
-                                <p>
-                                    <a href="#" class="text-white orange-link">Submit a request</a>
-                                </p>
-                                <p>
-                                    <a href="#" class="text-white orange-link">For press</a>
-                                </p>
-                            </div>
-                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                                <h6 class="text-uppercase fw-bold">Trending coins</h6>
-                                <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
-                                    style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                                <p>
-                                    <a href="#" class="text-white orange-link">BNB</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">BTC</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">AXS</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">DOGE</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                <h6 class="text-uppercase fw-bold">Upcoming events</h6>
-                                <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
-                                    style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                                <p>
-                                    <a href="#!" class="text-white orange-link">AMA w/Vitalik Buterin live at
-                                        r/cryptoNews.</a>
-                                </p>
-                                <p>
-                                    <a href="#!" class="text-white orange-link">Upcoming QNFT air-drops. Watch out!</a>
-                                </p>
+            <!--Partners section-->
+            <div class="ms-partners">
+                <h2 class="font-weight-bold" style="color: #ff6a3d; padding: 5rem 0 3rem 55px;">Our partners</h2>
+                <div class="partner-pairs">
+                    <div class="partner-pair"><a href="https://www.vilniuscoding.lt/" class="orange-link"
+                            target="_blank">
+                            <img src="assets/img/vcs-logo.jpg" alt="vcs-logo">
+                            <br>
+                            <br>
+                            <p>Vilnius Coding School</p>
+                        </a>
+                    </div>
+                    <div class="partner-pair"><a href="https://www.binance.com/en" class="orange-link" target="_blank">
+                            <img src="assets/img/binance-logo.jpg" alt="binance-logo">
+                            <br>
+                            <br>
+                            <p>Binance</p>
+                        </a>
+                    </div>
+                    <div class="partner-pair"><a href="https://coinmarketcap.com/" class="orange-link" target="_blank">
+                            <img src="assets/img/coin-market-cap-logo.jpg" alt="cmc-logo">
+                            <br>
+                            <br>
+                            <p>Coin Market Cap</p>
+                        </a>
+                    </div>
+                    <div class="partner-pair"><a href="http://www.kaunas.lt/" class="orange-link" target="_blank">
+                            <img src="assets/img/kaunas-logo.jpg" alt="kaunas-logo">
+                            <br>
+                            <br>
+                            <p>Kaunas City</p>
+                        </a>
+                    </div>
+                    <div class="partner-pair"> <a href="https://vilnius.lt/en/" class="orange-link" target="_blank">
+                            <img src="assets/img/vilnius-logo.png" alt="vilnius-logo">
+                            <br>
+                            <br>
+                            <p>Vilnius City</p>
+                        </a>
+                    </div>
+                    <div class="partner-pair"><a href="https://creativecoda.com/" class="orange-link" target="_blank">
+                            <img src="assets/img/coda-logo.png" alt="coda-logo">
+                            <br>
+                            <br>
+                            <p>CODA</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <div class="footer">
+                <footer class="text-center text-lg-start " style="background-color: #0a0a0a">
+                    <!-- Social media -->
+                    <section class="d-flex justify-content-between p-4" style="background-color: #ff6a3d">
+                        <div class="me-5">
+                            <span style="color: #fff;">Find us on social medias</span>
+                        </div>
+                        <div style="display: flex;justify-content: center;align-items: center;">
+                            <a href="" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+                            <a href="" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+                            <a href="" class="text-white me-4"><i class="fab fa-github"></i></a>
+                        </div>
+                    </section>
+
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <div class="row mt-3">
+                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold">About us</h6>
+                                    <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
+                                        style="width: 60px; background-color: #ff6a3d; height: 2px" />
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">Career</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">About</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">Privacy</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">Terms</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">Business contacts</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">News</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold">Support</h6>
+                                    <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
+                                        style="width: 60px; background-color: #ff6a3d; height: 2px" />
+                                    <p>
+                                        <a href="#" class="text-white orange-link">Give us feedback</a>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="text-white orange-link">Support center</a>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="text-white orange-link">Submit a request</a>
+                                    </p>
+                                    <p>
+                                        <a href="#" class="text-white orange-link">For press</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold">Trending coins</h6>
+                                    <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
+                                        style="width: 60px; background-color: #ff6a3d; height: 2px" />
+                                    <p>
+                                        <a href="#" class="text-white orange-link">BNB</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">BTC</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">AXS</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">DOGE</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                    <h6 class="text-uppercase fw-bold">Upcoming events</h6>
+                                    <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider"
+                                        style="width: 60px; background-color: #ff6a3d; height: 2px" />
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">AMA w/Vitalik Buterin live at
+                                            r/cryptoNews.</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-white orange-link">Upcoming QNFT air-drops. Watch
+                                            out!</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
+                    </section>
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="font-size: 0.8rem; background-color: rgba(0, 0, 0, 0.2)">
+                        <a class="text-white" href="#">CLP</a>
+                        © 2020
                     </div>
-                </section>
-                <!-- Copyright -->
-                <div class="text-center p-3" style="font-size: 0.8rem; background-color: rgba(0, 0, 0, 0.2)">
-                    <a class="text-white" href="#">CLP</a>
-                    © 2020
-                </div>
-            </footer>
+                </footer>
+            </div>
         </div>
-    </div>
 
     </div>
 
