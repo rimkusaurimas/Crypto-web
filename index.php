@@ -200,149 +200,103 @@
     <!-- Crypto Live Preview Widget (Short - CLPW)-->
     <div class="clpw" style="height: 150px;">
         <div class="clpw-wrapper container-fluid crypto-pairs row">
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair1">
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">BTC/USD</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">38,267</div>
-                <div class="price-small">38,267$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair2">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">ETH/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">2,237.04</div>
-                <div class="price-small">2,237.04$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair3">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">AXS/BNB</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">0.137789</div>
-                <div class="price-small">45.49$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair4">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">DOGE/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">0.20016</div>
-                <div class="price-small">0.20016$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair5">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">BTC/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">38,267</div>
-                <div class="price-small">38,267$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair6">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">ETH/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">2,237.04</div>
-                <div class="price-small">2,237.04$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair7">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">AXS/BNB</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">0.137789</div>
-                <div class="price-small">45.49$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair8">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">DOGE/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">0.20016</div>
-                <div class="price-small">0.20016$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair9">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">BTC/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">38,267</div>
-                <div class="price-small">38,267$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair10">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">ETH/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">2,237.04</div>
-                <div class="price-small">2,237.04$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair11">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">AXS/BNB</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">0.137789</div>
-                <div class="price-small">45.49$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
-
             <div class="col-md-4 col-6 col-xxl-2 pair pair12">
-
                 <div class="percentage-pair">
-                    <div class="percentage-pair-name">DOGE/USDT</div> &nbsp;
+                    <div class="percentage-pair-name"></div> &nbsp;
                     <div class="clpw-percent"></div>
                 </div>
-
-                <div class="price-big">0.20016</div>
-                <div class="price-small">0.20016$</div>
-
+                <div class="price-big"></div>
+                <div class="price-small"></div>
             </div>
+            
         </div>
     </div>
 
