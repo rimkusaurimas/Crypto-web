@@ -2,7 +2,7 @@
     background-color: $dark;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
@@ -22,6 +22,7 @@
     .newsletter-action {
         display: flex;
         justify-content: flex-start;
+        width: 625.333px;
 
         .newsletter-input {
             background-color: $dark;

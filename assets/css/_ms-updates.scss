@@ -5,52 +5,53 @@
     border-top: 91.6px solid $primary;
     border-right: 91.6px solid transparent;
     position: absolute;
-    margin-top: -2.84rem;
-    margin-left: -19.47rem;
 }
 
 .ms-updates {
     background-color: $dark;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 40px;
     overflow: hidden;
 
     .updates-item {
-        border: 1px solid $primary;
-        padding: 2.8rem 19.5rem;
-        max-width: 19.5rem;
-        max-height: 2.8rem;
-        margin-bottom: 2.4rem;
-
-        .updates-button {
-            border-left: hidden;
-            font-size: 1.1rem;
-            margin-top: -2.85rem;
-            width: 104.5px;
-            height: 91.3px;
-            right: 25.44rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+        margin: 0rem auto 2.8rem auto;
+        display: flex;
+        justify-content: center;
 
         .updates-item-shape {
             .shape-symbol {
                 position: absolute;
                 color: white;
                 font-size: 1.4rem;
-                margin: -1.9rem 0 0 -18.3rem;
+                padding-top: 1px;
+            }
+        }
+
+        .updates-item-txtbtn {
+            display: flex;
+            justify-content: space-between;
+            width: 625.333px;
+            border: 1px solid #ff6a3d;
+
+            .updates-button {
+                border-left: hidden;
+                font-size: 1.1rem;
+                width: 104.5px;
+                height: 91.3px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
 
         h2 {
             color: $white;
-            margin: -1.8rem 0 0 -13rem;
             font-size: 1rem;
-            position: absolute;
-            max-width: 25rem;
+            max-width: 26rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 0px;
+            padding-left: 110px;
         }
     }
 }

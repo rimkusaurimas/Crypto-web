@@ -13,6 +13,7 @@
         justify-content: space-between;
         align-items: center;
         padding-left: 55px;
+        height: calc(100vh - 232px);
 
         @media screen and (max-width: 940px) {
             display: flex;

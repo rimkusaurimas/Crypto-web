@@ -8,7 +8,9 @@
         .navbar-toggler {
             border: none;
 
-            .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+            &:focus,
+            .navbar-toggler:active,
+            .navbar-toggler-icon:focus {
                 outline: none;
                 box-shadow: none;
             }
@@ -46,6 +48,12 @@
             .nav-item {
                 margin-right: 0.9rem;
 
+                @media screen and (max-width: 990px) {
+                    .nav-link.dropdown-toggle, a.nav-link {
+                        text-align: center;
+                    }
+                }
+
                 .nav-link.drop-down-toggle.show {
                     border-top: px solid transparent;
                 }
@@ -73,6 +81,12 @@
                     visibility: hidden;
                     box-shadow: 0px 1px 3px #666;
 
+                    @media screen and (max-width: 990px) {
+                        visibility: visible;
+                        opacity: 1;
+                        box-shadow: none;   
+                    }
+
                     .drpm-cryptocurrencies {
                         left: -43px;
                     }
@@ -83,6 +97,10 @@
                         flex-direction: row;
                         align-items: center;
                         background-color: #fff;
+
+                        @media screen and (max-width: 990px) {
+                            justify-content: center;
+                        }
 
                         &:hover {
                             background-color: darken(#fff, 4%);
@@ -175,6 +193,11 @@
                     color: lighten($dark, 50%);
                 }
 
+                @media screen and (max-width: 990px) {
+                    .dropdown-menu {
+                        visibility: visible;
+                    }
+                }
             }
 
             .nav-link.nav-link-bg {

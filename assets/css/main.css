@@ -17496,7 +17496,9 @@ readers do not read off random characters that represent icons */
   border: none;
 }
 
-.header-section .navbar .navbar-toggler .navbar-toggler:focus, .header-section .navbar .navbar-toggler .navbar-toggler:active, .header-section .navbar .navbar-toggler .navbar-toggler-icon:focus {
+.header-section .navbar .navbar-toggler:focus,
+.header-section .navbar .navbar-toggler .navbar-toggler:active,
+.header-section .navbar .navbar-toggler .navbar-toggler-icon:focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -17541,6 +17543,12 @@ readers do not read off random characters that represent icons */
   margin-right: 0.9rem;
 }
 
+@media screen and (max-width: 990px) {
+  .header-section .navbar .navbar-collapse .nav-item .nav-link.dropdown-toggle, .header-section .navbar .navbar-collapse .nav-item a.nav-link {
+    text-align: center;
+  }
+}
+
 .header-section .navbar .navbar-collapse .nav-item .nav-link.drop-down-toggle.show {
   border-top: px solid transparent;
 }
@@ -17572,6 +17580,15 @@ readers do not read off random characters that represent icons */
           box-shadow: 0px 1px 3px #666;
 }
 
+@media screen and (max-width: 990px) {
+  .header-section .navbar .navbar-collapse .nav-item .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
 .header-section .navbar .navbar-collapse .nav-item .dropdown-menu .drpm-cryptocurrencies {
   left: -43px;
 }
@@ -17589,6 +17606,14 @@ readers do not read off random characters that represent icons */
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  .header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .header-section .navbar .navbar-collapse .nav-item .dropdown-menu .dropdown-item:hover {
@@ -17697,6 +17722,12 @@ readers do not read off random characters that represent icons */
   color: #8a8a8a;
 }
 
+@media screen and (max-width: 990px) {
+  .header-section .navbar-light .navbar-nav .nav-link .dropdown-menu {
+    visibility: visible;
+  }
+}
+
 .header-section .navbar-light .navbar-nav .nav-link.nav-link-bg {
   background-color: #0a0a0a;
   color: #fff;
@@ -17798,6 +17829,7 @@ readers do not read off random characters that represent icons */
       -ms-flex-align: center;
           align-items: center;
   padding-left: 55px;
+  height: calc(100vh - 232px);
 }
 
 @media screen and (max-width: 940px) {
@@ -18099,9 +18131,9 @@ readers do not read off random characters that represent icons */
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -18128,6 +18160,7 @@ readers do not read off random characters that represent icons */
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  width: 625.333px;
 }
 
 .section-newsletter .newsletter-action .newsletter-input {
@@ -18149,41 +18182,47 @@ readers do not read off random characters that represent icons */
   border-top: 91.6px solid #ff6a3d;
   border-right: 91.6px solid transparent;
   position: absolute;
-  margin-top: -2.84rem;
-  margin-left: -19.47rem;
 }
 
 .ms-updates {
   background-color: #0a0a0a;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 40px;
   overflow: hidden;
 }
 
 .ms-updates .updates-item {
-  border: 1px solid #ff6a3d;
-  padding: 2.8rem 19.5rem;
-  max-width: 19.5rem;
-  max-height: 2.8rem;
-  margin-bottom: 2.4rem;
+  margin: 0rem auto 2.8rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.ms-updates .updates-item .updates-button {
+.ms-updates .updates-item .updates-item-shape .shape-symbol {
+  position: absolute;
+  color: white;
+  font-size: 1.4rem;
+  padding-top: 1px;
+}
+
+.ms-updates .updates-item .updates-item-txtbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 625.333px;
+  border: 1px solid #ff6a3d;
+}
+
+.ms-updates .updates-item .updates-item-txtbtn .updates-button {
   border-left: hidden;
   font-size: 1.1rem;
-  margin-top: -2.85rem;
   width: 104.5px;
   height: 91.3px;
-  right: 25.44rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18195,19 +18234,21 @@ readers do not read off random characters that represent icons */
           align-items: center;
 }
 
-.ms-updates .updates-item .updates-item-shape .shape-symbol {
-  position: absolute;
-  color: white;
-  font-size: 1.4rem;
-  margin: -1.9rem 0 0 -18.3rem;
-}
-
 .ms-updates .updates-item h2, .ms-updates .updates-item .h2 {
   color: #fff;
-  margin: -1.8rem 0 0 -13rem;
   font-size: 1rem;
-  position: absolute;
-  max-width: 25rem;
+  max-width: 26rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px;
+  padding-left: 110px;
 }
 
 .ms-partners {
