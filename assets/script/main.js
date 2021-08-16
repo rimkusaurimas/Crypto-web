@@ -57,7 +57,21 @@ $(document).ready(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".ms-about").offset().top
         }, 1000);
+    });
 
+    //Sign up form
+    $("#sign-up").click(function() {
+        $("#log-in-form").hide();
+        $("#sign-up-form").show();
+        $("#log-in-text").show();
+        $("#sign-up-text").hide();
+    });
+    $("#log-in").click(function() {
+        $("#log-in-form").show();
+        $("#sign-up-form").hide();
+        $("#log-in-text").hide();
+        $("#sign-up-text").show();
+        
     });
 
 });
