@@ -87,11 +87,9 @@
            </div>
            <!-- Copyright -->
            <div class="text-center p-3" style="font-size: 0.8rem; background-color: rgba(0, 0, 0, 0.2)">
-               <a class="text-white" href="#">CLP</a>
-               © 2020
+               <a class="text-white" href="#">CLP </a>&copy; <?= date('Y'); ?>
            </div>
        </footer>
-   </div>
    </div>
 
    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
