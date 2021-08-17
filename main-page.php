@@ -227,9 +227,9 @@
                 <h1 class="newsletter-text1">Be the first to get the crypto feed!</h1>
                 <h1 class="newsletter-text2">Sign up for our newsletter</h1>
             </div>
-            <form class="newsletter-action" action="index.php">
-                <input class="form-control form-control-lg newsletter-input" id="newsletter-input" type="email" placeholder="Drop us your email..." required>
-                <input id="submit-newsletter" class="btn btn-clp form-control-lg newsletter-button" type="submit" value="Get it!" style="border-left: hidden; font-size: 1.1rem;">
+            <form class="newsletter-action" action="index.php" method="POST">
+                <input class="form-control form-control-lg newsletter-input" type="email" name="newsletter_email" placeholder="Drop us your email..."  required>
+                <button id="submit-newsletter" class="btn btn-clp form-control-lg newsletter-button" type="submit" name="newsletter_submit" style="border-left: hidden; font-size: 1.1rem;">GET IT!</button>
             </form>
         </div>
     </div>
