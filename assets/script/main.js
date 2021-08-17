@@ -147,8 +147,6 @@ $(document).ready(function () {
         }
     }
 
-    $(".slider")
-
     // Hero section
     $("#lrnbtn").click(function () {
         $([document.documentElement, document.body]).animate({
