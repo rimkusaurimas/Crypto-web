@@ -84,6 +84,48 @@ $(document).ready(function () {
             percent: 0,
             dollarValue: 0.00038,
             value: 0.00568
+        },
+
+        pair13: {
+            name: "WIN/TRX",
+            percent: 0,
+            dollarValue: 0.00038,
+            value: 0.00568
+        },
+
+        pair14: {
+            name: "WIN/TRX",
+            percent: 0,
+            dollarValue: 0.00038,
+            value: 0.00568
+        },
+
+        pair15: {
+            name: "WIN/TRX",
+            percent: 0,
+            dollarValue: 0.00038,
+            value: 0.00568
+        },
+        
+        pair16: {
+            name: "WIN/TRX",
+            percent: 0,
+            dollarValue: 0.00038,
+            value: 0.00568
+        },
+
+        pair17: {
+            name: "WIN/TRX",
+            percent: 0,
+            dollarValue: 0.00038,
+            value: 0.00568
+        },
+
+        pair18: {
+            name: "WIN/TRX",
+            percent: 0,
+            dollarValue: 0.00038,
+            value: 0.00568
         }
     };
 
@@ -104,6 +146,8 @@ $(document).ready(function () {
             pair.find(".price-big").append(clpwPairs[key].value);
         }
     }
+
+    $(".slider")
 
     // Hero section
     $("#lrnbtn").click(function () {

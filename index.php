@@ -200,103 +200,156 @@
     <!-- Crypto Live Preview Widget (Short - CLPW)-->
     <div class="clpw" style="height: 150px;">
         <div class="clpw-wrapper container-fluid crypto-pairs row">
-            <div class="col-md-4 col-6 col-xxl-2 pair pair1">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+            <div class="clpw-slide" style="display: flex; flex-wrap: wrap;">
+                <div class="col-md-4 col-6 col-xxl-2 pair pair1">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair2">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair2">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair3">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair3">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair4">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair4">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair5">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair5">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair6">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair6">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
             </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair7">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+            <div class="clpw-slide" style="display: flex; flex-wrap: wrap;">
+                <div class="col-md-4 col-6 col-xxl-2 pair pair7">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair8">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair8">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair9">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair9">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair10">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair10">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair11">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair11">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
-            </div>
-            <div class="col-md-4 col-6 col-xxl-2 pair pair12">
-                <div class="percentage-pair">
-                    <div class="percentage-pair-name"></div> &nbsp;
-                    <div class="clpw-percent"></div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair12">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
                 </div>
-                <div class="price-big"></div>
-                <div class="price-small"></div>
             </div>
-            
+            <div class="clpw-slide" style="display: flex; flex-wrap: wrap;">
+                <div class="col-md-4 col-6 col-xxl-2 pair pair13">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
+                </div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair14">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
+                </div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair15">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
+                </div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair16">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
+                </div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair17">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
+                </div>
+                <div class="col-md-4 col-6 col-xxl-2 pair pair18">
+                    <div class="percentage-pair">
+                        <div class="percentage-pair-name"></div> &nbsp;
+                        <div class="clpw-percent"></div>
+                    </div>
+                    <div class="price-big"></div>
+                    <div class="price-small"></div>
+                </div>
+            </div>
         </div>
     </div>
 
