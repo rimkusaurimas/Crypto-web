@@ -95,13 +95,13 @@
             </ul>
 
             <div class="login-register-ul">
-            <?php
-                    if (isset($_SESSION['u_id'])) {
-                        echo '<div class="nav-item" id="logout">
+                <?php
+                if (isset($_SESSION['u_id'])) : ?>
+                    <div class="nav-item" id="logout">
                         <a action="assets/src/appRegLog.logout.php" class="nav-link login" href=""><i class="fas fa-sign-out-alt"></i> Log Out</a>
-                    </div>';
-                    } else {
-                        echo '<div class="navbar-nav me-auto mb-2 mb-lg-0 login-register" style="align-items: center;">
+                    </div>
+                <?php else : ?>
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0 login-register" style="align-items: center;">
                         <div class="nav-item">
                             <a class="nav-link login " href="#" data-bs-toggle="modal" data-bs-target="#login-register-modal"><i class="far fa-user"></i> Sign In</a>
                         </div>
@@ -113,7 +113,7 @@
                                     </div>
                                     <div class="modal-body">
                                         <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
-                                        <form style="width: 25rem;" id="log-in-form action="assets/src/appRegLog.login.php">
+                                        <form style="width: 25rem;" id="log-in-form">
                                             <div class="form-group">
                                                 <input type="text" class="form-control" id="user-modal-log-username" placeholder="User name">
                                             </div>
@@ -174,9 +174,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>';
-                    }
-                    ?>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </nav>
