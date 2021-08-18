@@ -101,8 +101,8 @@ session_start();
             <div class="login-register-ul">
                 <?php
                 if (isset($_SESSION['u_id'])) : ?>
-                    <div class="nav-item" id="logout">
-                        <a action="assets/src/appRegLog.logout.php" class="nav-link login" href=""><i class="fas fa-sign-out-alt"></i> Log Out</a>
+                    <div class="nav-item" id="logout" >
+                        <a name="submit" action="assets/src/appRegLog.logout.php" class="nav-link login" href=""><i class="fas fa-sign-out-alt"></i> Log Out</a>
                     </div>
                 <?php else : ?>
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 login-register" style="align-items: center;">

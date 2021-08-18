@@ -1,7 +1,8 @@
 <?php
+ini_set('display_errors', 1);
 session_start();
 if (isset($_POST['submit'])) {
-    include_once '../dbinputs/db.php';
+    include_once 'db.inc.php';
     $uid = mysqli_real_escape_string($conn, $_POST['uid']);
     $pwd = mysqli_real_escape_string($conn, $_POST['pwd']);
 
@@ -9,7 +10,7 @@ if (isset($_POST['submit'])) {
         header("Location: ../index.php?=login=empty");
         exit();
     } else {
-        $sql = "SELECT * FROM users WHERE user_uid = '$uid'";
+        $sql = "SELECT * FROM loginreg WHERE user_username = '$uid'";
         $result = mysqli_query($conn, $sql);
         $result_check = mysqli_num_rows($result);
         if ($result_check < 1) {
