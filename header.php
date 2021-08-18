@@ -110,14 +110,15 @@ session_start();
                             <a class="nav-link login " href="#" data-bs-toggle="modal" data-bs-target="#login-register-modal"><i class="far fa-user"></i> Sign In</a>
                         </div>
                         <div class="modal fade" id="login-register-modal" tabindex="-1" aria-labelledby="login-register-modal" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog" style="width: auto;">
                                 <div class="modal-content">
                                     <div class="modal-header" style="border: none; padding-bottom: 0px;">
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
                                         <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
-                                        <form action="assets/src/appRegLog.login.php" style="width: 25rem;" id="log-in-form">
+                                        <form action="assets/src/appRegLog.login.php" id="log-in-form">
+                                        <div class="form-row align-items-center">
                                                 <input name="uid" type="text" class="form-control form-group" id="user-modal-log-username" placeholder="User name">
                                             <br>
                                                 <input name="pwd" type="password" class="form-control form-group" id="user-modal-log-password" placeholder="Password">
@@ -128,28 +129,19 @@ session_start();
                                                 <button type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
                                                     In</button>
                                             </div>
+                                        </div>
                                         </form>
-                                        <form style="width: 25rem;" id="sign-up-form">
+                                        <form action="" id="sign-up-form">
                                             <div class="form-row align-items-center">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="user-modal-reg-name" placeholder="Full Name">
-                                                </div>
+                                                    <input type="text" class="form-control form-group" id="user-modal-reg-name" placeholder="Full Name">
                                                 <br>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="user-modal-reg-email" placeholder="Email address">
-                                                </div>
+                                                    <input type="text" class="form-control form-group" id="user-modal-reg-email" placeholder="Email address">
                                                 <br>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="user-modal-reg-username" placeholder="User name">
-                                                </div>
+                                                    <input type="text" class="form-control form-group" id="user-modal-reg-username" placeholder="User name">
                                                 <br>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control" id="user-modal-reg-password" placeholder="Password">
-                                                </div>
+                                                    <input type="password" class="form-control form-group" id="user-modal-reg-password" placeholder="Password">
                                                 <br>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control" id="user-modal-reg-password2" placeholder="Repeat password">
-                                                </div>
+                                                    <input type="password" class="form-control form-group" id="user-modal-reg-password2" placeholder="Repeat password">
                                                 <br>
                                                 <div class="form-check">
                                                     <input type="checkbox" class="form-check-input" id="agreeCheck">
@@ -157,7 +149,7 @@ session_start();
                                                 </div>
                                                 <br>
                                                 <div style="display: flex; justify-content: center;">
-                                                    <button type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Register</button>
+                                                    <button type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Sign Up</button>
                                                 </div>
                                             </div>
                                         </form>

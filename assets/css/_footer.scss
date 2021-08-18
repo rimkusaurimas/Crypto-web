@@ -13,9 +13,10 @@
     .text-white {
         text-decoration: none;
         transition: 0.4s, color 0.4s, border 0.8s;
+        opacity: 70%;
 
         &:hover {
-            color: $primary;
+            opacity: 100%;
         }
     }
 }

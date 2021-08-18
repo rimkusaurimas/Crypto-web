@@ -7,7 +7,7 @@
     text-align: center;
 
     .newsletter-text {
-        padding: 30px 0 40px 0;
+        padding: 40px;
 
         .newsletter-text1 {
             font-size: 1rem;
@@ -21,7 +21,7 @@
 
     .newsletter-action {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         width: 625.333px;
 
         .newsletter-input {
@@ -30,11 +30,24 @@
             border-bottom: 1px solid $primary;
             border-left: 1px solid $primary;
             color: $white;
+            font-size: 1.25rem;
+
+            @media screen and (max-width: 650px) {
+                width: 12rem;
+
+                &::placeholder {
+                    font-size: 14px;
+                }
+            }
         }
 
-        .newsletter-button{
+        .newsletter-button {
             border: solid 1px $primary;
             border-left: hidden;
+
+            @media screen and (max-width: 650px) {
+                width: 6rem;
+            }
         }
     }
 }

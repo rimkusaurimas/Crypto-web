@@ -32,17 +32,17 @@
                 border-top: solid 1px #BFBFBF;
             }
 
-        #logout {
-            margin: 0rem;
-            font-weight: 500;
-            color: $dark;
-            margin-right: 0.9rem;
+            #logout {
+                margin: 0rem;
+                font-weight: 500;
+                color: $dark;
+                margin-right: 0.9rem;
 
-            @media screen and (max-width: 990px) {
-                padding-left: 0px;
-                border-top: solid 1px #BFBFBF;
+                @media screen and (max-width: 990px) {
+                    padding-left: 0px;
+                    border-top: solid 1px #BFBFBF;
+                }
             }
-        }
 
             .login-register {
                 display: flex;
@@ -58,22 +58,31 @@
         .nav-item {
             margin-right: 0.9rem;
 
-            @media screen and (max-width: 990px) {
+            @media screen and (max-width: 991px) {
+                &:hover {
+                    color: lighten($dark, 50%);
+                }
 
                 .nav-link.dropdown-toggle,
                 a.nav-link {
                     text-align: center;
+                    color: $primary;
+                    padding: 30px 20px 10px;
                 }
             }
 
             .nav-link.drop-down-toggle.show {
-                border-top: px solid transparent;
+                border-top: 1px solid transparent;
             }
 
             &.dropdown:hover .dropdown-menu {
                 opacity: 1;
                 visibility: visible;
                 box-shadow: 0px -5px 15px -19px #000;
+
+                @media screen and (max-width: 991px) {
+                    box-shadow: none;
+                }
             }
 
             .dropdown-menu {
@@ -93,10 +102,11 @@
                 visibility: hidden;
                 box-shadow: 0px 1px 3px #666;
 
-                @media screen and (max-width: 990px) {
+                @media screen and (max-width: 991px) {
                     visibility: visible;
                     opacity: 1;
                     box-shadow: none;
+                    padding: 0px;
                 }
 
                 .drpm-cryptocurrencies {
@@ -110,12 +120,24 @@
                     align-items: center;
                     background-color: #fff;
 
-                    @media screen and (max-width: 990px) {
+                    @media screen and (max-width: 991px) {
+                        font-weight: 500;
                         justify-content: center;
+                        height: 50px;
+
+
+                        i {
+                            display: none;
+                        }
+
                     }
 
                     &:hover {
                         background-color: darken(#fff, 4%);
+
+                        @media screen and (max-width: 991px) {
+                            background-color: $white;
+                        }
                     }
                 }
 
@@ -156,23 +178,30 @@
                         overflow-y: visible;
                         padding-top: 0px;
 
-                        .modal-text-fpw-reg {
-                            display: flex;
-                            justify-content: flex-end;
-                            margin-top: -14px;
+                        #log-in-form, #sign-up-form {
+                            width: 25rem;
 
-                            .fpw-reg {
+                            @media screen and (max-width: 435px) {
+                                width: 100%;
+                            }
+
+                            .modal-text-fpw-reg {
+                                display: flex;
+                                justify-content: flex-end;
+                                margin-top: -14px;
+                            }
+                            
+                            a.fpw-reg.modal-text-fpw-reg {
                                 text-decoration: none;
                                 transition: 0.4s, color 0.4s, border 0.8s;
                                 color: #666;
-
+    
                                 &:hover {
                                     color: $primary;
                                 }
                             }
                         }
                     }
-
                     .modal-footer-text {
                         display: flex;
                         flex-direction: row;
@@ -190,6 +219,10 @@
         .dropdown-menu {
             margin-top: -10px;
             align-items: center;
+
+            @media screen and (max-width: 991px) {
+                padding: 0px;
+            }
         }
 
         .nav-link {
@@ -201,7 +234,7 @@
                 color: lighten($dark, 50%);
             }
 
-            @media screen and (max-width: 990px) {
+            @media screen and (max-width: 991px) {
                 .dropdown-menu {
                     visibility: visible;
                 }

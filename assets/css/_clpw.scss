@@ -4,6 +4,7 @@
 	.clpw-wrapper {
 		background-color: $dark;
 		overflow: hidden;
+		margin-left: 0px;
 	}
 
 	.crypto-pairs {
@@ -15,7 +16,7 @@
 		position: relative;
 		padding-left: 25px;
 		
-		@media screen and (min-width: 330px) {
+		@media screen and (min-width: 376px) {
 			padding-left: 69px;
 		}
 
