@@ -32,6 +32,18 @@
                 border-top: solid 1px #BFBFBF;
             }
 
+        #logout {
+            margin: 0rem;
+            font-weight: 500;
+            color: $dark;
+            margin-right: 0.9rem;
+
+            @media screen and (max-width: 990px) {
+                padding-left: 0px;
+                border-top: solid 1px #BFBFBF;
+            }
+        }
+
             .login-register {
                 display: flex;
                 justify-content: flex-end;

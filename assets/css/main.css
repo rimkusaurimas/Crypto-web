@@ -17524,6 +17524,20 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.navbar .navbar-collapse .login-register-ul #logout {
+  margin: 0rem;
+  font-weight: 500;
+  color: #0a0a0a;
+  margin-right: 0.9rem;
+}
+
+@media screen and (max-width: 990px) {
+  .navbar .navbar-collapse .login-register-ul #logout {
+    padding-left: 0px;
+    border-top: solid 1px #BFBFBF;
+  }
+}
+
 .navbar .navbar-collapse .login-register-ul .login-register {
   display: -webkit-box;
   display: -ms-flexbox;

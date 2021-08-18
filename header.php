@@ -95,80 +95,88 @@
             </ul>
 
             <div class="login-register-ul">
-                <div class="navbar-nav me-auto mb-2 mb-lg-0 login-register" style="align-items: center;">
-                    <div class="nav-item">
-                        <a class="nav-link login " href="#" data-bs-toggle="modal" data-bs-target="#login-register-modal"><i class="far fa-user"></i> Sign In</a>
-                    </div>
-                    <div class="modal fade" id="login-register-modal" tabindex="-1" aria-labelledby="login-register-modal" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header" style="border: none; padding-bottom: 0px;">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
-                                    <form style="width: 25rem;" id="log-in-form">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="user-modal-log-username" placeholder="User name">
-                                        </div>
-                                        <br>
-                                        <div class="form-group">
-                                            <input type="password" class="form-control" id="user-modal-log-password" placeholder="Password">
-                                        </div>
-                                        <br>
-                                        <div class="modal-text-fpw-reg">
-                                            <a class="fpw-reg" href="#">Forgot password?</a>
-                                        </div>
-                                        <br>
-                                        <div style="display: flex; justify-content: center;">
-                                            <button type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
-                                                In</button>
-                                        </div>
-                                    </form>
-                                    <form style="width: 25rem;" id="sign-up-form">
-                                        <div class="form-row align-items-center">
+            <?php
+                    if (isset($_SESSION['u_id'])) {
+                        echo '<div class="nav-item" id="logout">
+                        <a action="assets/src/appRegLog.logout.php" class="nav-link login" href=""><i class="fas fa-sign-out-alt"></i> Log Out</a>
+                    </div>';
+                    } else {
+                        echo '<div class="navbar-nav me-auto mb-2 mb-lg-0 login-register" style="align-items: center;">
+                        <div class="nav-item">
+                            <a class="nav-link login " href="#" data-bs-toggle="modal" data-bs-target="#login-register-modal"><i class="far fa-user"></i> Sign In</a>
+                        </div>
+                        <div class="modal fade" id="login-register-modal" tabindex="-1" aria-labelledby="login-register-modal" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="border: none; padding-bottom: 0px;">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
+                                        <form style="width: 25rem;" id="log-in-form action="assets/src/appRegLog.login.php">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="user-modal-reg-name" placeholder="Full Name">
+                                                <input type="text" class="form-control" id="user-modal-log-username" placeholder="User name">
                                             </div>
                                             <br>
                                             <div class="form-group">
-                                                <input type="text" class="form-control" id="user-modal-reg-email" placeholder="Email address">
+                                                <input type="password" class="form-control" id="user-modal-log-password" placeholder="Password">
                                             </div>
                                             <br>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="user-modal-reg-username" placeholder="User name">
-                                            </div>
-                                            <br>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="user-modal-reg-password" placeholder="Password">
-                                            </div>
-                                            <br>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="user-modal-reg-password2" placeholder="Repeat password">
-                                            </div>
-                                            <br>
-                                            <div class="form-check">
-                                                <input type="checkbox" class="form-check-input" id="agreeCheck">
-                                                <label class="form-check-label" for="agreeCheck">By clicking on this box you agree with our <a href="#" style="text-decoration: none; color: #ff6a3d;">Terms & Conditions</a></label>
+                                            <div class="modal-text-fpw-reg">
+                                                <a class="fpw-reg" href="#">Forgot password?</a>
                                             </div>
                                             <br>
                                             <div style="display: flex; justify-content: center;">
-                                                <button type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Register</button>
+                                                <button type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
+                                                    In</button>
                                             </div>
+                                        </form>
+                                        <form style="width: 25rem;" id="sign-up-form">
+                                            <div class="form-row align-items-center">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="user-modal-reg-name" placeholder="Full Name">
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="user-modal-reg-email" placeholder="Email address">
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="user-modal-reg-username" placeholder="User name">
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" id="user-modal-reg-password" placeholder="Password">
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" id="user-modal-reg-password2" placeholder="Repeat password">
+                                                </div>
+                                                <br>
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="agreeCheck">
+                                                    <label class="form-check-label" for="agreeCheck">By clicking on this box you agree with our <a href="#" style="text-decoration: none; color: #ff6a3d;">Terms & Conditions</a></label>
+                                                </div>
+                                                <br>
+                                                <div style="display: flex; justify-content: center;">
+                                                    <button type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Register</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div id="sign-up-text" class="modal-footer-text">
+                                            <p>Not a member yet?</p>&nbsp;<a id="sign-up" class="orange-link" href="#"><strong>Sign
+                                                    up!</strong></a>
                                         </div>
-                                    </form>
-                                    <div id="sign-up-text" class="modal-footer-text">
-                                        <p>Not a member yet?</p>&nbsp;<a id="sign-up" class="orange-link" href="#"><strong>Sign
-                                                up!</strong></a>
-                                    </div>
-                                    <div id="log-in-text" class="modal-footer-text">
-                                        <p>Have an account?</p>&nbsp;<a id="log-in" class="orange-link" href="#"><strong>Log in!</strong></a>
+                                        <div id="log-in-text" class="modal-footer-text">
+                                            <p>Have an account?</p>&nbsp;<a id="log-in" class="orange-link" href="#"><strong>Log in!</strong></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div>';
+                    }
+                    ?>
             </div>
         </div>
     </nav>
