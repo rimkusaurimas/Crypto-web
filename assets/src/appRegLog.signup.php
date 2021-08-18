@@ -1,4 +1,4 @@
-<?php
+<?php /*
     if (isset($_POST['submit'])) {
         include_once 'db.inc.php';
         $first = mysqli_real_escape_string($conn, $_POST['first']);
@@ -41,4 +41,4 @@
             }
         
         } 
-    }
+    } */
