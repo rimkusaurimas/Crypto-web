@@ -221,16 +221,13 @@
     <div class="section-divider-fromblack" style="background-color: #0a0a0a;"><img src="assets/img/tilt-main-small.svg" alt="section-divider-black-alternate" style="width: 100%; height: 5rem;">
     </div>
     <!--Newsletter section-->
-    <div class="section-newsletter">
+    <div class="section-newsletter" id="section-newsletter">
         <div class="newsletter-content">
             <div class="newsletter-text">
                 <h1 class="newsletter-text1">Be the first to get the crypto feed!</h1>
                 <h1 class="newsletter-text2">Sign up for our newsletter</h1>
             </div>
-            <form class="newsletter-action" action="index.php" method="POST">
-                <input class="form-control form-control-lg newsletter-input" type="email" name="newsletter_email" placeholder="Drop us your email..."  required>
-                <button id="submit-newsletter" class="btn btn-clp form-control-lg newsletter-button" type="submit" name="newsletter_submit" style="border-left: hidden; font-size: 1.1rem;">GET IT!</button>
-            </form>
+            <div><?php include('assets/src/appNl.php'); ?></div>
         </div>
     </div>
     <!--Platform updates section-->

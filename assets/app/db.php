@@ -10,4 +10,3 @@
         echo 'Klaida: ' . $mysqli->connect_error . '\n';
         exit();
     }
-    mysqli_query($mysqli, "INSERT INTO newsletter (newsletter_email) VALUES('$_POST[newsletter_email]')");

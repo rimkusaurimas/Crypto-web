@@ -64,7 +64,7 @@ $(document).ready(function () {
             dollarValue: 0.00038,
             value: 0.00568
         },
-        
+
         pair10: {
             name: "WIN/TRX",
             percent: 0,
@@ -106,7 +106,7 @@ $(document).ready(function () {
             dollarValue: 0.00038,
             value: 0.00568
         },
-        
+
         pair16: {
             name: "WIN/TRX",
             percent: 0,
@@ -136,7 +136,7 @@ $(document).ready(function () {
             let procentai = pair.find(".clpw-percent").append(clpwPairs[key].percent + "%");
             if (clpwPairs[key].percent < 0) {
                 procentai.css("color", "rgb(246, 70, 93)");
-            } else if (clpwPairs[key].percent == 0){
+            } else if (clpwPairs[key].percent == 0) {
                 procentai.css("color", "grey");
             } else {
                 procentai.css("color", "rgb(14, 203, 129)");

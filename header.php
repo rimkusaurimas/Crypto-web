@@ -33,7 +33,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Cryptocurrencies
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu">
                         <li class="drpm-pair dropdown-item">
                             <i class="fas fa-chart-line font-for-dropdown"></i>
                             <a href="#">Ranking</a>
@@ -52,7 +52,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Exchanges
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu">
                         <li class="drpm-pair dropdown-item">
                             <i class="far fa-circle font-for-dropdown"></i>
                             <a href="#">Spot</a>
