@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -113,18 +117,12 @@
                                     </div>
                                     <div class="modal-body">
                                         <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
-                                        <form style="width: 25rem;" id="log-in-form">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" id="user-modal-log-username" placeholder="User name">
-                                            </div>
+                                        <form action="assets/src/appRegLog.login.php" style="width: 25rem;" id="log-in-form">
+                                                <input name="uid" type="text" class="form-control form-group" id="user-modal-log-username" placeholder="User name">
                                             <br>
-                                            <div class="form-group">
-                                                <input type="password" class="form-control" id="user-modal-log-password" placeholder="Password">
-                                            </div>
+                                                <input name="pwd" type="password" class="form-control form-group" id="user-modal-log-password" placeholder="Password">
                                             <br>
-                                            <div class="modal-text-fpw-reg">
-                                                <a class="fpw-reg" href="#">Forgot password?</a>
-                                            </div>
+                                                <a class="fpw-reg modal-text-fpw-reg" href="#">Forgot password?</a>
                                             <br>
                                             <div style="display: flex; justify-content: center;">
                                                 <button type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
