@@ -1,5 +1,5 @@
 <?php
-if (!empty($_POST['newsletter_email'])) : ?>
+if ($_SESSION['newsPressed'] ) : ?>
     <div style="border:#ff6a3d solid 1px; padding: 36px 0px;">
     <h2 style="color: #ff6a3d; margin-bottom: 0px; font-size: 1rem;">Feed is on it's way!</h2>
     </div>
