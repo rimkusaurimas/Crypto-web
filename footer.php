@@ -53,7 +53,7 @@
            </div>
            <!-- Copyright -->
            <div class="text-center p-3" style="font-size: 0.8rem; background-color: rgba(0, 0, 0, 0.2)">
-               <a class="text-white" href="#">CLP </a>&copy; <?= date('Y'); ?>
+               <a class="text-white" href="../Crypto-web">CLP </a>&copy; <?= date('Y'); ?>
            </div>
        </footer>
    </div>

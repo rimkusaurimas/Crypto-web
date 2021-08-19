@@ -146,11 +146,11 @@ $(document).ready(function () {
         }
     }
     // CLPW animation - !NOT WORKING!
-    for (let i = 150; i <= 300; i++) {
-        setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, 0px) translateZ(0px)"), 3000);
-        setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -150px) translateZ(0px)"), 3000);
-        setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -300px) translateZ(0px)"), 3000);
-    }
+    // for (let i = 150; i <= 300; i++) {
+    //     setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, 0px) translateZ(0px)"), 3000);
+    //     setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -150px) translateZ(0px)"), 3000);
+    //     setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -300px) translateZ(0px)"), 3000);
+    // }
     // Hero section button - scroll to about
     $("#lrnbtn").click(function () {
         $([document.documentElement, document.body]).animate({
@@ -163,7 +163,7 @@ $(document).ready(function () {
     $('#sign-up-form').hide();
 
     $('#log-in, #sign-up').mousedown(function () {
-        $('#log-in-text, #sign-up-text').toggle()
-        $('#sign-up-form, #log-in-form').toggle()
+        $('#log-in-text, #sign-up-text').toggle();
+        $('#sign-up-form, #log-in-form').toggle();
     });
 });

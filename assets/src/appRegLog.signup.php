@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
                         header("Location: ../../?signup=usertaken");
                         exit();
                     } else {
-                        if (!$pwd = $pwd2) {
+                        if (!$pwd == $pwd2) {
                             header("Location: ../../?signup=passwordnomatch");
                             exit();
                         } else {
