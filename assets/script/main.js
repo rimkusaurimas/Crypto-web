@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    // Crypto Live Preview Widget
+    // Crypto Live Preview Widget (CLPW)
     const clpwPairs = {
         pair1: {
             name: "BTC/USDT",
@@ -129,9 +129,9 @@ $(document).ready(function () {
         }
     };
 
+    // CLPW objects in place
     for (let key in clpwPairs) {
         let pair = $("." + key);
-
         if (pair.length > 0) {
             let procentai = pair.find(".clpw-percent").append(clpwPairs[key].percent + "%");
             if (clpwPairs[key].percent < 0) {
@@ -145,6 +145,12 @@ $(document).ready(function () {
             pair.find(".price-small").append(clpwPairs[key].dollarValue + "$");
             pair.find(".price-big").append(clpwPairs[key].value);
         }
+    }
+    // CLPW animation
+    for (let i = 150; i <= 300; i++) {
+        setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, 0px) translateZ(0px)"), 3000);
+        setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -150px) translateZ(0px)"), 3000);
+        setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -300px) translateZ(0px)"), 3000);
     }
 
     // Hero section

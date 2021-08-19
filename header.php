@@ -132,28 +132,26 @@ session_start();
                                                     In</button>
                                             </div>
                                         </div>
-                                        </form>
-                                        <form method="POST" action="" id="sign-up-form">
-                                            <div class="form-row align-items-center">
-                                                    <input type="text" class="form-control form-group" id="user-modal-reg-name" placeholder="Full Name">
+                                        </form> 
+                                        <form method="POST" action="assets/src/appRegLog.signup.php" id="sign-up-form" class="form-row align-items-center">
+                                                    <input name="name" type="text" class="form-control form-group" id="user-modal-reg-name" placeholder="Full Name">
                                                 <br>
-                                                    <input type="text" class="form-control form-group" id="user-modal-reg-email" placeholder="Email address">
+                                                    <input name="email" type="text" class="form-control form-group" id="user-modal-reg-email" placeholder="Email address">
                                                 <br>
-                                                    <input type="text" class="form-control form-group" id="user-modal-reg-username" placeholder="User name">
+                                                    <input name="uname" type="text" class="form-control form-group" id="user-modal-reg-username" placeholder="User name">
                                                 <br>
-                                                    <input type="password" class="form-control form-group" id="user-modal-reg-password" placeholder="Password">
+                                                    <input name="pw" type="password" class="form-control form-group" id="user-modal-reg-password" placeholder="Password">
                                                 <br>
-                                                    <input type="password" class="form-control form-group" id="user-modal-reg-password2" placeholder="Repeat password">
+                                                    <input name="pw2" type="password" class="form-control form-group" id="user-modal-reg-password2" placeholder="Repeat password">
                                                 <br>
                                                 <div class="form-check">
-                                                    <input type="checkbox" class="form-check-input" id="agreeCheck">
+                                                    <input name="check" type="checkbox" class="form-check-input" id="agreeCheck">
                                                     <label class="form-check-label" for="agreeCheck">By clicking on this box you agree with our <a href="#" style="text-decoration: none; color: #ff6a3d;">Terms & Conditions</a></label>
                                                 </div>
                                                 <br>
                                                 <div style="display: flex; justify-content: center;">
-                                                    <button type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Sign Up</button>
+                                                    <button name="submit" type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Sign Up</button>
                                                 </div>
-                                            </div>
                                         </form>
                                         <div id="sign-up-text" class="modal-footer-text">
                                             <p>Not a member yet?</p>&nbsp;<a id="sign-up" class="orange-link" href="#"><strong>Sign
