@@ -21,13 +21,9 @@
 body {
 	font-family: "Roboto", sans-serif;
   }
-
   .dropdown-toggle::after {
     display: none;
   }
-
   .form-control:focus, .btn:focus, .form-check-input:focus {
     box-shadow: none;
-  }
-
-  
+  }  
