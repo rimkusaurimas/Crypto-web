@@ -17544,6 +17544,12 @@ readers do not read off random characters that represent icons */
   .navbar .navbar-collapse .login-register-ul #logout {
     padding-left: 0px;
     border-top: solid 1px #BFBFBF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -17678,7 +17684,6 @@ readers do not read off random characters that represent icons */
 
 .navbar .navbar-collapse .modal.fade.show .modal-dialog,
 .navbar .navbar-collapse .modal.fade.show .modal-content {
-  /* 80% of window height */
   height: 100%;
   margin: 0px;
 }
@@ -18241,6 +18246,7 @@ readers do not read off random characters that represent icons */
 @media screen and (max-width: 650px) {
   .section-newsletter .newsletter-action .newsletter-input {
     width: 12rem;
+    font-size: 0.9rem;
   }
   .section-newsletter .newsletter-action .newsletter-input::-webkit-input-placeholder {
     font-size: 14px;

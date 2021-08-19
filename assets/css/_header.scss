@@ -50,6 +50,8 @@
                 @media screen and (max-width: 990px) {
                     padding-left: 0px;
                     border-top: solid 1px #BFBFBF;
+                    display: flex;
+                    justify-content: center;
                 }
             }
 
@@ -163,7 +165,6 @@
 
             .modal-dialog,
             .modal-content {
-                /* 80% of window height */
                 height: 100%;
                 margin: 0px;
             }

@@ -19,68 +19,34 @@
                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                            <h6 class="text-uppercase fw-bold">About us</h6>
                            <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider" style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                           <p>
-                               <a href="#!" class="text-white orange-link">Career</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">About</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">Privacy</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">Terms</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">Business contacts</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">News</a>
-                           </p>
+                           <p><a href="#!" class="text-white orange-link">Career</a></p>
+                           <p><a href="#!" class="text-white orange-link">About</a></p>
+                           <p><a href="#!" class="text-white orange-link">Privacy</a></p>
+                           <p><a href="#!" class="text-white orange-link">Terms</a></p>
+                           <p><a href="#!" class="text-white orange-link">Business contacts</a></p>
+                           <p><a href="#!" class="text-white orange-link">News</a></p>
                        </div>
                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                            <h6 class="text-uppercase fw-bold">Support</h6>
                            <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider" style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                           <p>
-                               <a href="#" class="text-white orange-link">Give us feedback</a>
-                           </p>
-                           <p>
-                               <a href="#" class="text-white orange-link">Support center</a>
-                           </p>
-                           <p>
-                               <a href="#" class="text-white orange-link">Submit a request</a>
-                           </p>
-                           <p>
-                               <a href="#" class="text-white orange-link">For press</a>
-                           </p>
+                           <p><a href="#" class="text-white orange-link">Give us feedback</a></p>
+                           <p><a href="#" class="text-white orange-link">Support center</a></p>
+                           <p><a href="#" class="text-white orange-link">Submit a request</a></p>
+                           <p><a href="#" class="text-white orange-link">For press</a></p>
                        </div>
                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                            <h6 class="text-uppercase fw-bold">Trending coins</h6>
                            <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider" style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                           <p>
-                               <a href="#" class="text-white orange-link">BNB</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">BTC</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">AXS</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">DOGE</a>
-                           </p>
+                           <p><a href="#" class="text-white orange-link">BNB</a></p>
+                           <p><a href="#!" class="text-white orange-link">BTC</a></p>
+                           <p><a href="#!" class="text-white orange-link">AXS</a></p>
+                           <p><a href="#!" class="text-white orange-link">DOGE</a></p>
                        </div>
                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                            <h6 class="text-uppercase fw-bold">Upcoming events</h6>
                            <hr class="mb-4 mt-0 d-inline-block mx-auto footer-divider" style="width: 60px; background-color: #ff6a3d; height: 2px" />
-                           <p>
-                               <a href="#!" class="text-white orange-link">AMA w/Vitalik Buterin live at
-                                   r/cryptoNews.</a>
-                           </p>
-                           <p>
-                               <a href="#!" class="text-white orange-link">Upcoming QNFT air-drops. Watch
-                                   out!</a>
-                           </p>
+                           <p><a href="#!" class="text-white orange-link">AMA w/Vitalik Buterin live at r/cryptoNews.</a></p>
+                           <p><a href="#!" class="text-white orange-link">Upcoming QNFT air-drops. Watch out!</a></p>
                        </div>
                    </div>
                </div>
@@ -98,5 +64,4 @@
    <script src="assets/script/main.js"></script>
 
    </body>
-
    </html>

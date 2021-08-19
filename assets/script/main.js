@@ -128,7 +128,6 @@ $(document).ready(function () {
             value: 0.00568
         }
     };
-
     // CLPW objects in place
     for (let key in clpwPairs) {
         let pair = $("." + key);
@@ -146,21 +145,20 @@ $(document).ready(function () {
             pair.find(".price-big").append(clpwPairs[key].value);
         }
     }
-    // CLPW animation
+    // CLPW animation - !NOT WORKING!
     for (let i = 150; i <= 300; i++) {
         setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, 0px) translateZ(0px)"), 3000);
         setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -150px) translateZ(0px)"), 3000);
         setTimeout(() =>  $("#clpw-wrapper-id").css("transform", "translate(0px, -300px) translateZ(0px)"), 3000);
     }
-
-    // Hero section
+    // Hero section button - scroll to about
     $("#lrnbtn").click(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".ms-about").offset().top
         }, 1000);
     });
 
-    //Sign up form toggle
+    //Sign up - log in form toggle
     $('#log-in-text').hide();
     $('#sign-up-form').hide();
 
@@ -168,5 +166,4 @@ $(document).ready(function () {
         $('#log-in-text, #sign-up-text').toggle()
         $('#sign-up-form, #log-in-form').toggle()
     });
-
 });

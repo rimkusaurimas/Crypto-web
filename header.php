@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-
 <!doctype html>
 <html lang="en">
 
@@ -27,7 +26,7 @@ session_start();
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light container-fluid">
-        <a class="navbar-brand logo" href="#"><img src="assets/img/logo.svg" class="img-fluid" alt="CLP Logo"></a>
+        <a class="navbar-brand logo" href="../Crypto-web"><img src="assets/img/logo.svg" class="img-fluid" alt="CLP Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,13 +96,12 @@ session_start();
                     <a class="nav-link" aria-current="page" href="#">Learn</a>
                 </li>
             </ul>
-
             <div class="login-register-ul">
                 <?php
                 if (isset($_SESSION['u_id'])) : ?>
-                    <div class="nav-item" id="logout" >
+                    <div class="nav-item" id="logout">
                         <form method="POST" action="assets/src/appRegLog.logout.php">
-                        <button type="submit" name="outsubmit"  class="nav-link login logout-button" href=""><i class="fas fa-sign-out-alt"></i> Log Out</button>
+                            <button type="submit" name="outsubmit" class="nav-link login logout-button" href=""><i class="fas fa-sign-out-alt"></i> Log Out</button>
                         </form>
                     </div>
                 <?php else : ?>
@@ -120,38 +118,38 @@ session_start();
                                     <div class="modal-body">
                                         <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
                                         <form method="POST" action="assets/src/appRegLog.login.php" id="log-in-form">
-                                        <div class="form-row align-items-center">
+                                            <div class="form-row align-items-center">
                                                 <input name="uid" type="text" class="form-control form-group" id="user-modal-log-username" placeholder="User name">
-                                            <br>
+                                                <br>
                                                 <input name="pwd" type="password" class="form-control form-group" id="user-modal-log-password" placeholder="Password">
-                                            <br>
+                                                <br>
                                                 <a class="fpw-reg modal-text-fpw-reg" href="#">Forgot password?</a>
-                                            <br>
-                                            <div style="display: flex; justify-content: center;">
-                                                <button name="submit" type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
-                                                    In</button>
-                                            </div>
-                                        </div>
-                                        </form> 
-                                        <form method="POST" action="assets/src/appRegLog.signup.php" id="sign-up-form" class="form-row align-items-center">
-                                                    <input name="name" type="text" class="form-control form-group" id="user-modal-reg-name" placeholder="Full Name">
-                                                <br>
-                                                    <input name="email" type="text" class="form-control form-group" id="user-modal-reg-email" placeholder="Email address">
-                                                <br>
-                                                    <input name="uname" type="text" class="form-control form-group" id="user-modal-reg-username" placeholder="User name">
-                                                <br>
-                                                    <input name="pw" type="password" class="form-control form-group" id="user-modal-reg-password" placeholder="Password">
-                                                <br>
-                                                    <input name="pw2" type="password" class="form-control form-group" id="user-modal-reg-password2" placeholder="Repeat password">
-                                                <br>
-                                                <div class="form-check">
-                                                    <input name="check" type="checkbox" class="form-check-input" id="agreeCheck">
-                                                    <label class="form-check-label" for="agreeCheck">By clicking on this box you agree with our <a href="#" style="text-decoration: none; color: #ff6a3d;">Terms & Conditions</a></label>
-                                                </div>
                                                 <br>
                                                 <div style="display: flex; justify-content: center;">
-                                                    <button name="submit" type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Sign Up</button>
+                                                    <button name="submit" type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
+                                                        In</button>
                                                 </div>
+                                            </div>
+                                        </form>
+                                        <form method="POST" action="assets/src/appRegLog.signup.php" id="sign-up-form" class="form-row align-items-center">
+                                            <input name="name" type="text" class="form-control form-group" id="user-modal-reg-name" placeholder="Full Name">
+                                            <br>
+                                            <input name="email" type="text" class="form-control form-group" id="user-modal-reg-email" placeholder="Email address">
+                                            <br>
+                                            <input name="uname" type="text" class="form-control form-group" id="user-modal-reg-username" placeholder="User name">
+                                            <br>
+                                            <input name="pw" type="password" class="form-control form-group" id="user-modal-reg-password" placeholder="Password">
+                                            <br>
+                                            <input name="pw2" type="password" class="form-control form-group" id="user-modal-reg-password2" placeholder="Repeat password">
+                                            <br>
+                                            <div class="form-check">
+                                                <input name="check" type="checkbox" class="form-check-input" id="agreeCheck">
+                                                <label class="form-check-label" for="agreeCheck">By clicking on this box you agree with our <a href="#" style="text-decoration: none; color: #ff6a3d;">Terms & Conditions</a></label>
+                                            </div>
+                                            <br>
+                                            <div style="display: flex; justify-content: center;">
+                                                <button name="submit" type="submit" class="btn btn-primary btn-clp form-control" style="width: 100%;">Sign Up</button>
+                                            </div>
                                         </form>
                                         <div id="sign-up-text" class="modal-footer-text">
                                             <p>Not a member yet?</p>&nbsp;<a id="sign-up" class="orange-link" href="#"><strong>Sign
