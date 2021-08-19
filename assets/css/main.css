@@ -17524,6 +17524,15 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.navbar .navbar-collapse .login-register-ul .logout-button {
+  color: #0a0a0a;
+  font-weight: 500;
+  padding: 20px;
+  border: none;
+  background: none;
+  font-size: inherit;
+}
+
 .navbar .navbar-collapse .login-register-ul #logout {
   margin: 0rem;
   font-weight: 500;
@@ -17705,17 +17714,20 @@ readers do not read off random characters that represent icons */
   padding-top: 0px;
 }
 
-.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form, .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form,
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form {
   width: 25rem;
 }
 
 @media screen and (max-width: 435px) {
-  .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form, .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form {
+  .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form,
+  .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form {
     width: 100%;
   }
 }
 
-.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form .modal-text-fpw-reg, .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form .modal-text-fpw-reg {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form .modal-text-fpw-reg,
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form .modal-text-fpw-reg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17725,14 +17737,16 @@ readers do not read off random characters that represent icons */
   margin-top: -14px;
 }
 
-.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form a.fpw-reg.modal-text-fpw-reg, .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form a.fpw-reg.modal-text-fpw-reg {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form a.fpw-reg.modal-text-fpw-reg,
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form a.fpw-reg.modal-text-fpw-reg {
   text-decoration: none;
   -webkit-transition: 0.4s, color 0.4s, border 0.8s;
   transition: 0.4s, color 0.4s, border 0.8s;
   color: #666;
 }
 
-.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form a.fpw-reg.modal-text-fpw-reg:hover, .navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form a.fpw-reg.modal-text-fpw-reg:hover {
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #log-in-form a.fpw-reg.modal-text-fpw-reg:hover,
+.navbar .navbar-collapse .modal.fade.show .modal-dialog .modal-content .modal-body #sign-up-form a.fpw-reg.modal-text-fpw-reg:hover {
   color: #ff6a3d;
 }
 

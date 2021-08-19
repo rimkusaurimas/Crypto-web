@@ -102,7 +102,9 @@ session_start();
                 <?php
                 if (isset($_SESSION['u_id'])) : ?>
                     <div class="nav-item" id="logout" >
-                        <a name="submit" action="assets/src/appRegLog.logout.php" class="nav-link login" href=""><i class="fas fa-sign-out-alt"></i> Log Out</a>
+                        <form method="POST" action="assets/src/appRegLog.logout.php">
+                        <button type="submit" name="outsubmit"  class="nav-link login logout-button" href=""><i class="fas fa-sign-out-alt"></i> Log Out</button>
+                        </form>
                     </div>
                 <?php else : ?>
                     <div class="navbar-nav me-auto mb-2 mb-lg-0 login-register" style="align-items: center;">
@@ -117,7 +119,7 @@ session_start();
                                     </div>
                                     <div class="modal-body">
                                         <img src="assets/img/logo.svg" alt="" style="width: 90px; padding-bottom: 2rem;">
-                                        <form action="assets/src/appRegLog.login.php" id="log-in-form">
+                                        <form method="POST" action="assets/src/appRegLog.login.php" id="log-in-form">
                                         <div class="form-row align-items-center">
                                                 <input name="uid" type="text" class="form-control form-group" id="user-modal-log-username" placeholder="User name">
                                             <br>
@@ -126,12 +128,12 @@ session_start();
                                                 <a class="fpw-reg modal-text-fpw-reg" href="#">Forgot password?</a>
                                             <br>
                                             <div style="display: flex; justify-content: center;">
-                                                <button type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
+                                                <button name="submit" type="submit" class="btn btn-primary btn-clp" style="width: 100%;">Log
                                                     In</button>
                                             </div>
                                         </div>
                                         </form>
-                                        <form action="" id="sign-up-form">
+                                        <form method="POST" action="" id="sign-up-form">
                                             <div class="form-row align-items-center">
                                                     <input type="text" class="form-control form-group" id="user-modal-reg-name" placeholder="Full Name">
                                                 <br>

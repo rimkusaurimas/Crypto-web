@@ -1,8 +1,8 @@
 <?php
-    if (isset($_POST['submit'])) {
+    if (isset($_POST['outsubmit'])) {
         session_start();
         session_unset();
         session_destroy();
-        header("Location: ../main-page.php");
+        header("Location: ../../");
         exit();
     }

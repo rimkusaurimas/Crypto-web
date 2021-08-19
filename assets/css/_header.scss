@@ -32,6 +32,15 @@
                 border-top: solid 1px #BFBFBF;
             }
 
+            .logout-button {
+                color: #0a0a0a;
+                font-weight: 500;
+                padding: 20px;
+                border: none;
+                background: none;
+                font-size: inherit;
+            }
+
             #logout {
                 margin: 0rem;
                 font-weight: 500;
@@ -178,7 +187,8 @@
                         overflow-y: visible;
                         padding-top: 0px;
 
-                        #log-in-form, #sign-up-form {
+                        #log-in-form,
+                        #sign-up-form {
                             width: 25rem;
 
                             @media screen and (max-width: 435px) {
@@ -190,18 +200,19 @@
                                 justify-content: flex-end;
                                 margin-top: -14px;
                             }
-                            
+
                             a.fpw-reg.modal-text-fpw-reg {
                                 text-decoration: none;
                                 transition: 0.4s, color 0.4s, border 0.8s;
                                 color: #666;
-    
+
                                 &:hover {
                                     color: $primary;
                                 }
                             }
                         }
                     }
+
                     .modal-footer-text {
                         display: flex;
                         flex-direction: row;
