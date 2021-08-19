@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
                             // Sukuriame hash slaptazodi
                             $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
                             // Ikeliame vartotoja i DB
-                            mysqli_query($mysqli, "INSERT INTO loginreg (user_name, user_email, user_username, user_pw) VALUES ('$name'), ('$email'), ('$uid'), ('$pwd'), ('$terms')");
+                            mysqli_query($mysqli, "INSERT INTO loginreg (user_name, user_email, user_username, user_pw, user_terms) VALUES ('$name'), ('$email'), ('$uid'), ('$hashedPwd'), ('$terms')");
                             header("Location: ../../?signup=usercreated");
                             exit();
                         }
