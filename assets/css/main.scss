@@ -24,6 +24,6 @@ body {
   .dropdown-toggle::after {
     display: none;
   }
-  .form-control:focus, .btn:focus, .form-check-input:focus {
+  .form-control:focus, .btn:focus, .form-check-input:focus, a:focus {
     box-shadow: none;
   }  

@@ -18420,7 +18420,7 @@ body {
   display: none;
 }
 
-.form-control:focus, .btn:focus, .form-check-input:focus {
+.form-control:focus, .btn:focus, .form-check-input:focus, a:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
