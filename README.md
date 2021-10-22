@@ -1,4 +1,4 @@
-# CryptoWeb
+# Crypto Web for Vilnius Coding School
 This is my debut website for previewing live crypto data, exchange information, event news and more. 
 
 This project was done for Vilnius Coding School bootcamp final exam.
