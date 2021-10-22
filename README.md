@@ -2,7 +2,7 @@
 This is my debut website for Vilnius Coding School bootcamp final exam.
 
 PHP: 
-Sign-up, sign-in, logout and newsletter form
+Sign-up, sign-in, logout and newsletter form.
 
 Vanilla JS:
 The crypto information preview widget area, "Learn more" button.
