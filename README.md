@@ -1,5 +1,5 @@
 # Crypto Web for Vilnius Coding School
-This is my debut website for Vilnius Coding School bootcamp final exam.
+This is my debut website for Vilnius Coding School boot camp final exam.
 
 PHP: 
 Sign-up, sign-in, logout and newsletter form.
